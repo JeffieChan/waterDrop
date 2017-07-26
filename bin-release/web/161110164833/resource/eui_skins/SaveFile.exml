@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SaveFileSkin" width="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  height="720">
+	<e:Rect width="1280" height="720" x="0" y="0"/>
+	
+	<e:Label id="title" text="存档" x="530" y="61" width="222" height="60" verticalAlign="middle" textAlign="center"/>
+	<e:Image id="menu" source="menu_png" x="1162" y="31" width="60" height="60"/>
+	<ns1:GameFile id="file1" x="210" y="178" skinName="GameFileSkin"/>
+	<ns1:GameFile id="file2" x="750" y="440" skinName="GameFileSkin"/>
+	<ns1:GameFile id="file3" x="210" y="440" skinName="GameFileSkin"/>
+	<ns1:GameFile id="file4" x="750" y="178" skinName="GameFileSkin" scaleX="1" scaleY="1"/>
+	
+</e:Skin>

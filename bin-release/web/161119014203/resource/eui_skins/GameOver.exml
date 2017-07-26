@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameOverSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1576700c29e" ></w:Config>
+	<e:Rect  width="1280" height="720" x="0" y="0" fillColor="0x0a0003"/>
+	<e:Image id="bg" x="0" y="0" source="endbg_png" width="1280" height="720"/>
+	<!--<e:Label text="游戏结束，进行判定" x="426.00000000000006" y="194" width="854" height="333" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1"/>-->
+</e:Skin>

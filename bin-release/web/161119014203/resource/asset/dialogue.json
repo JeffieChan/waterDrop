@@ -1,0 +1,2706 @@
+[
+{
+		"pre_conditions":"0",
+		"aside":"某年某月某日，在某个小镇",
+	 	"name":"刘文清",
+        "scene":"1block_jpg",
+        "content":["请问这是什么地方？"],
+        "skins":"SceneBlock",
+        "figure":"heroine_png",
+        "post_conditions":"",
+        "select":[],
+        "texture":"newParticle"
+},
+{
+		"pre_conditions":"1",
+		"name":"陌生大叔",
+		"scene":"1block_jpg",
+        "content":["这里是边镇，小伙子，怎么来这里的，没事吧？"],
+        "skins":"SceneBlock",
+        "figure":"mouncle_png",
+        "post_conditions":"",
+        "select":[],
+        "texture":"newParticle"
+},
+{ 	    
+		"pre_conditions":"2",
+		"name":"刘文清",
+		"scene":"1block_jpg",
+        "content":["我也不知道，一醒来就在这里了，也不记得怎么来的。","来此地探亲，路遇强盗，我和家人走散了。"],
+        "skins":"SceneBlock",
+        "figure":"heroine_png",
+        "post_conditions":"",
+        "select":["如实诉说","博取同情"],
+        "add":["1-5","1-0"],
+        "texture":"newParticle"
+},
+{
+		"pre_conditions":"3",
+		"name":"莫大叔",
+		"scene":"1block_jpg",
+        "content":["我姓莫，是这里的农户，这样吧，你先在我家休息休息，等你家人过来！"],
+        "skins":"SceneBlock",
+        "figure":"mouncle_png",
+        "post_conditions":"",
+        "select":[],
+        "texture":"newParticle"
+},
+{ 	    
+		"pre_conditions":"4",
+		"name":"刘文清",
+        "content":["谢谢大叔的好意，我还是在这等人吧!","谢谢大叔，希望不会太麻烦到你!"],
+        "scene":"1block_jpg",
+        "skins":"SceneBlock",
+        "figure":"heroine_png",
+        "post_conditions":"",
+        "next":["-1","5"],
+        "select":["这个人有问题，拒绝","大叔应该是个好人，同意"],
+        "add":["0-0","4-5"],
+        "texture":"newParticle"
+},
+{ 	    
+		"pre_conditions":"5",
+		"name":"莫青虹",
+		"aside":"跟随莫大叔来到了他家，看到一个正在洗晒衣物的女孩子",
+        "content":["爹，你回来了，这位公子是？"],
+        "skins":"SceneBlock",
+        "figure":"qing_1_png",
+        "scene":"1town_3_jpg",
+        "post_conditions":"", 
+        "select":[],
+        "add":[],
+        "texture":"newParticle"
+},
+{	    
+		"pre_conditions":"6",
+		"name":"刘文清",
+        "content":["不好意思，可能要打扰你了，我姓刘，名文清。"],
+        "skins":"SceneBlock",
+        "figure":"heroine_png",
+        "scene":"1town_3_jpg",
+        "post_conditions":"", 
+        "select":[],
+        "add":[],
+        "texture":"newParticle"
+},
+{       		
+	    "pre_conditions":"7",
+		"name":"刘文清",
+		"aside":"在这里住了几日，你感觉莫家父女还不错，但是他们还是不知道你是女孩子，你要不要告诉他们？",
+        "content":["莫大叔，莫姑娘，谢谢你们！","莫大叔，莫姑娘，其实我是女扮男装！"],
+        "skins":"SceneBlock",
+        "figure":"heroine_png",
+        "scene":"1house_2_jpg",
+        "post_conditions":"", 
+        "next":["8","10"],
+        "select":["不告知，男人身份比较安全","告知，不应该继续骗他们"],
+        "add":["0-0","4-5"]
+},
+{       		
+	    "pre_conditions":"8",
+		"name":"莫青虹",
+        "content":["有些事情，你真的不打算和我们说了，比如...男装..."],
+        "skins":"SceneBlock",
+        "figure":"qing_1_png",
+        "scene":"1house_2_jpg",
+         "post_conditions":"",
+         "select":[]
+},
+{       		
+	    "pre_conditions":"9",
+		"name":"刘文清",
+        "content":["你们都知道了！！！"],
+        "skins":"SceneBlock",
+        "figure":"heroine_png",
+        "scene":"1house_2_jpg",
+        "post_conditions":"",
+        "select":[]
+},
+{       		
+	    "pre_conditions":"10",
+		"name":"莫青虹",
+        "content":["其实我们早发现不对劲的，我以前也老这样子玩的,只不过你个子高眉目英气更像一点，但是你没有贴喉结，下次我教你啊。"],
+        "skins":"SceneBlock",
+        "figure":"qing_1_png",
+        "scene":"1house_2_jpg",
+        "post_conditions":"",
+        "select":[]
+
+},
+{       		
+	    "pre_conditions":"11",
+		"name":"刘文清",
+        "content":["对不起，我不是故意要骗你们的，我只是不知道在这里举目无亲怎么生存下去，我只是觉得扮男装可能简单点。"],
+        "skins":"SceneBlock",
+        "figure":"heroine_png",
+        "scene":"1house_2_jpg",
+        "select":[]
+},
+{       		
+	    "pre_conditions":"12",
+		"name":"莫大叔",
+        "content":["文清，没事的，你可以选择你觉得安全的任何方式，我们会陪你一直到找到你的家人！"],
+        "skins":"SceneBlock",
+        "figure":"mouncle_png",
+        "scene":"1house_2_jpg",
+        "select":[]
+},
+{       		
+	    "pre_conditions":"13",
+		"name":"刘文清",
+        "content":["真的，谢谢你们！"],
+        "skins":"SceneBlock",
+        "figure":"heroine_png",
+        "scene":"1house_2_jpg",
+        "select":[]
+},
+{
+	   	"pre_conditions":"14",
+		"name":"刘文清",
+		"aside":"在他们家呆了这么久，和他们商量一下，应该找些事情忙吧！",
+        "content":["莫大叔，你厨艺这么好，要不开家店吧！","莫大叔，我以前看过一些医书，以后我和你一起上山去采药吧!","青虹，我看你平时那么忙，我帮你做些事情吧!"],
+        "skins":"SceneBlock",
+        "figure":"heroine_png",
+        "scene":"1house_1_jpg",
+        "post_conditions":"", 
+        "next":["15","16","17"],
+        "select":["帮莫大叔开店","和莫大叔去采药","帮青虹做一些琐事"],
+        "add":["2-5","1-10","4-5"]
+},
+{
+		"pre_conditions":"15",
+		"name":"莫大叔",
+        "content":["文清，你来这里不久可能不太清楚，这几年这块边境不安定，饭店是开不起的！你要是觉得无聊，去私塾借借书看吧！"],
+        "figure":"mouncle_png",
+        "scene":"1house_1_jpg",
+        "next":["39"],
+        "select":[]
+ },
+ {
+ 		"pre_conditions":"16",
+		"name":"莫大叔",
+        "content":["不过要爬山，可能辛苦点，你要适应些。"],
+        "figure":"mouncle_png",
+        "scene":"1house_1_jpg",
+        "next":["39"],
+        "select":[]
+ },
+{
+	    "pre_conditions":"17",
+	    "name":"莫青虹",
+        "content":["不用了，文清，你乖乖呆在旁边看就好了"],
+        "figure":"qing_1_png",
+        "scene":"1house_1_jpg",
+        "select":[]
+},
+{
+	    "pre_conditions":"18",
+	    "name":"刘文清",
+        "content":["青虹，你这是赤裸裸得瞧不起我！","青虹，我可以的，可以帮你的！"],
+        "figure":"heroine_png",
+        "scene":"1house_1_jpg",
+        "select":["有点生气","继续劝说"],
+        "add":["4-5","2-6"]
+},
+{
+	    "pre_conditions":"19",
+	    "name":"莫青虹",
+        "content":["好吧，那你帮我照看那群小孩子吧！"],
+        "figure":"qing_1_png",
+        "scene":"1house_1_jpg",
+        "select":[]
+},
+{
+	    "pre_conditions":"20",
+		"name":"刘文清",
+        "content":["好的，我会努力的！"],
+        "figure":"heroine_png",
+        "scene":"1house_1_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"21",
+		"name":"刘文清",
+		"aside":"你就是在这里照看那些小孩，他们大多父亲战死或者在守边境，家里的大人都是老弱病残，还要忙家里的活，所以常常托青虹照看下",
+        "content":["你们小心点，不要摔伤了！"],
+        "figure":"heroine_png",
+        "scene":"1town_2_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"22",
+		"name":"小孩子",
+        "content":["书呆子，你还真以为你能考上状元嘛！"],
+        "figure":"child_png",
+        "scene":"1town_2_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"23",
+		"name":"阿乔",
+        "content":["我能，别以为你做不到的事情，别人就不可以!"],
+        "figure":"aqiao_png",
+        "scene":"1town_2_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"24",
+		"name":"刘文清",
+		"aside":"他们那群小孩看你走过去，突然一哄而散，你看一个小孩子坐在地上，你把他扶起，发现他手臂跌伤了",
+        "content":["怎么了，我带你去处理一下吧！"],
+        "figure":"heroine_png",
+        "scene":"1town_2_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"25",
+		"name":"阿乔",
+        "content":["嗯，谢谢！"],
+        "figure":"aqiao_png",
+        "scene":"1town_2_jpg",
+        "select":[]
+},
+{
+	    "pre_conditions":"26",
+	    "name":"莫青虹",
+        "content":["阿乔，你怎么了，又是那群小子嘛？哎，那群小兔崽子，真是不听话！"],
+        "figure":"qing_1_png",
+        "scene":"1town_1_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"27",
+		"name":"阿乔",
+        "content":["莫姐姐，没事的！"],
+        "figure":"aqiao_png",
+        "scene":"1town_1_jpg",
+        "select":[]
+},
+{
+	    "pre_conditions":"28",
+		"name":"刘文清",
+		"aside":"你不知道事情的缘由，这个你想问谁？",
+        "content":["青虹，这是，怎么回事？","阿乔，是他们欺负你了吗？"],
+        "figure":"heroine_png",
+        "scene":"1town_1_jpg",
+        "post_conditions":"", 
+        "next":["29","30"],
+        "select":["青虹","阿乔"],
+        "add":["1-5","3-5"]
+},
+{
+	    "pre_conditions":"29",
+	    "name":"莫青虹",
+        "content":["其实，很简单，阿乔想读书，那群小孩子爱玩，觉得阿乔离群不和他们是一队的！"],
+        "figure":"qing_1_png",
+        "scene":"1town_1_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"30",
+		"name":"阿乔",
+        "content":["刘哥哥，只是他们笑我要考状元，拉扯几下，我不小心摔倒了而已"],
+        "figure":"aqiao_png",
+        "scene":"1town_1_jpg",
+        "select":[]
+},
+{
+	    "pre_conditions":"31",
+		"name":"刘文清",
+        "content":["孙大圣刚开始想成为盖世大英雄的时候，其他的妖怪都嘲笑他只是个猴子精还妄想成为盖世英雄，但孙大圣后面还是大圣，其他不看好的嘲笑并不能决定他是不是盖世英雄！"],
+        "figure":"heroine_png",
+        "scene":"1town_1_jpg",
+        "post_conditions":"", 
+        "select":[]
+},
+{
+        "pre_conditions":"32",
+		"name":"阿乔",
+        "content":["刘哥哥，你想成为什么样的人呢？"],
+        "figure":"aqiao_png",
+        "scene":"1town_1_jpg",
+        "select":[]
+},
+{
+        "pre_conditions":"33",
+		"name":"刘文清",
+        "content":["我也想成为盖世大英雄！"],
+        "figure":"heroine_png",
+        "scene":"1town_1_jpg",
+        "post_conditions":"", 
+        "select":[]
+},
+{
+       "pre_conditions":"34",
+		"name":"阿乔",
+        "content":["刘哥哥的梦想比我还难额，刘哥哥加油！"],
+        "figure":"aqiao_png",
+        "scene":"1town_1_jpg",
+        "select":[]
+},
+{
+        "pre_conditions":"35",
+		"name":"刘文清",
+        "content":["小阿乔，你也加油！"],
+        "figure":"heroine_png",
+        "scene":"1town_1_jpg",
+        "post_conditions":"", 
+        "select":[]
+},
+{
+	    "pre_conditions":"36",
+	    "name":"莫青虹",
+        "content":["文清，你..."],
+        "figure":"qing_1_png",
+        "scene":"1town_1_jpg",
+        "select":[]
+},
+{
+        "pre_conditions":"37",
+		"name":"刘文清",
+        "content":["青虹，你也要嘲笑我嘛，不为我加油嘛？"],
+        "figure":"heroine_png",
+        "scene":"1town_1_jpg",
+        "post_conditions":"", 
+        "select":[]
+},
+{
+	    "pre_conditions":"38",
+	    "name":"莫青虹",
+        "content":["没有，没有嘲笑！"],
+        "figure":"qing_1_png",
+        "scene":"1town_1_jpg",
+        "next":["43"],
+        "select":[]
+},
+{
+        "pre_conditions":"39",
+        "aside":"有一天，莫大叔上山采药回来",
+		"name":"莫大叔",
+        "content":["文清啊，如果你家人找到你了，你不要那么快回去，我麻烦你一件事情好不？"],
+        "figure":"mouncle_png",
+        "scene":"1town_1_jpg",
+        "select":[]    
+},
+{
+        "pre_conditions":"40",
+		"name":"刘文清",
+        "content":["莫大叔，其实我家人可能都遭遇不测了，所以可能会麻烦你们很久了，你有事情我一定会竭尽全力帮忙的！"],
+        "figure":"heroine_png",
+        "scene":"1town_1_jpg",
+        "select":[]
+},
+{
+        "pre_conditions":"41",
+		"name":"莫大叔",
+        "content":["我身体越来越不好了，现在采药都很累了，以后要麻烦你多多照顾青虹！"],
+        "figure":"mouncle_png",
+        "scene":"1town_1_jpg",
+        "select":[]    
+},
+{
+        "pre_conditions":"42",
+		"name":"刘文清",
+        "content":["能力所及，万死不辞！！！"],
+        "figure":"heroine_png",
+        "scene":"1town_1_jpg",
+        "select":[],
+        "add":["4-10"]
+},
+{
+	    "pre_conditions":"43",
+	    "aside":"在放榜处，看到征兵令，写着“前线急需兵员，现每家征兵一位”",
+	    "name":"莫青虹",
+        "content":["怎么又要征兵，这不是爹也要上前线嘛？"],
+        "figure":"qing_1_png",
+        "scene":"notice_1_jpg",
+        "select":[]
+},
+{
+        "pre_conditions":"44",
+		"name":"刘文清",
+        "content":["不会的，大叔年纪那么大了，已经不适合上战场了。"],
+        "figure":"heroine_png",
+        "scene":"notice_1_jpg",
+        "select":[] 
+},
+{
+        "pre_conditions":"45",
+		"name":"老爷爷",
+        "content":["小伙子有所不知，孤家老妪都被逼应役，世道不仁啊！"],
+        "figure":"luren01_png",
+        "scene":"notice_1_jpg",
+        "select":[] 
+},
+{
+	    "pre_conditions":"46",
+	    "name":"莫青虹",
+        "content":["大爷，不是世道的问题，是那些夷人太可恶，老犯我边境！"],
+        "figure":"qing_1_png",
+        "scene":"notice_1_jpg",
+        "select":[]
+},
+{
+        "pre_conditions":"47",
+		"name":"刘文清",
+        "content":["是啊，夷人太可恶，不过保卫大好河山的事情应该交给我们这样的有志青年！","青虹，你不要自欺欺人了，明明就是这乱世不公！"],
+        "figure":"heroine_png",
+        "scene":"notice_1_jpg",
+        "select":["同意青虹的观点","同意老爷爷的说法"],
+        "next":["49","48"],
+        "add":["2-5","3-5"]
+},
+{
+	    "pre_conditions":"48",
+	    "name":"莫青虹",
+        "content":["文清,不许胡说，别站在这里了，快回去吧！"],
+        "figure":"qing_1_png",
+        "scene":"notice_1_jpg",
+        "next":["52"],
+        "select":[]
+},
+{
+	    "pre_conditions":"49",
+	    "name":"莫青虹",
+        "content":["你们？文清，你指的是自己嘛？"],
+        "figure":"qing_1_png",
+        "scene":"notice_1_jpg",
+        "select":[]
+},
+{
+        "pre_conditions":"50",
+		"name":"刘文清",
+        "content":["当然了，保卫家国人人有责，有能力的当然要奋勇当前！"],
+        "figure":"heroine_png",
+        "scene":"notice_1_jpg",
+        "select":[] 
+},
+{
+	    "pre_conditions":"51",
+		"name":"老爷爷",
+        "content":["要是所有人都像小伙子你一样想，这世上就好了！"],
+        "figure":"luren01_png",
+        "scene":"notice_1_jpg",
+        "select":[] 
+},
+{
+	  	"pre_conditions":"52",
+		"name":"刘文清",
+		"aside":"莫家收留文清这么久，文清想也许该报答他们了。",
+        "content":["青虹，我觉得我可以一个人出去了！"],
+        "figure":"heroine_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+},
+{
+	    "pre_conditions":"53",
+	    "name":"莫青虹",
+        "content":["啊？文清，不行，你还是和爷爷两个人去上山采药，明天一早就去,晚上就住山上!"],
+        "figure":"qing_1_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"54",
+		"name":"刘文清",
+        "content":["你别说傻话了，就算去采药，只要你在这里，还是要回来的！"],
+        "figure":"heroine_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+},
+{
+	    "pre_conditions":"55",
+	    "name":"莫青虹",
+        "content":["可是，征兵令怎么办啊!"],
+        "figure":"qing_1_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"56",
+		"name":"刘文清",
+        "content":["现在先别想，先去烧饭吧，明天再说，船到桥头自然直！"],
+        "figure":"heroine_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+},
+{
+	    "pre_conditions":"57",
+	    "name":"莫青虹",
+        "content":["(好像想起什么)刘文清，你和我们只是普通雇佣关系，你只是帮干活的，你不要掺和我们家的事情!"],
+        "figure":"qing_1_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"58",
+		"name":"刘文清",
+        "content":["(失落得低着头)我知道了！"],
+        "figure":"heroine_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"59",
+		"name":"官吏",
+		"aside":"莫青虹进去不久，就有官吏过来了，刘文清走了过去。",
+        "content":["莫家谁服兵役，没有人我就要捉人了！"],
+        "figure":"guanli01_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"60",
+		"name":"刘文清",
+        "content":["我，我代表莫家应征！"],
+        "figure":"heroine_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"61",
+		"name":"官吏",
+        "content":["你(那官吏仔细打量了刘文清一眼)，好吧，就你了，划掉莫家吧！走，拉去玉阳！"],
+        "figure":"guanli01_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"62",
+		"name":"士兵甲",
+		"aside":"急行军的路上，这一片的村落都十室九空",
+        "content":["(气喘吁吁)这么急，和赶着要投胎似的！"],
+        "figure":"bing1_png",
+        "scene":"2poluo_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"63",
+		"name":"士兵乙",
+        "content":["(瞥了一眼远在前面的官员)边境的城池都丢了，我们新兵蛋子上去就是赶着去送死，死了马上投胎，再来帮他们送死啊！"],
+        "figure":"bing2_png",
+        "scene":"2poluo_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"64",
+		"name":"士兵甲",
+        "content":["(神色顿时紧张了起来，压低声音)兄弟啊，这么说可是惑乱军心，会死的!"],
+        "figure":"bing1_png",
+        "scene":"2poluo_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"65",
+		"name":"士兵乙",
+        "content":["哼，(故意大声)怎么都是要死的，怕什么！"],
+        "figure":"bing2_png",
+        "scene":"2poluo_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"66",
+		"name":"官吏",
+        "content":["(轻叹一声)但愿边境早点安定吧！"],
+        "figure":"guanli01_png",
+        "scene":"2poluo_jpg",
+        "select":[]
+},
+{	
+	  	"pre_conditions":"67",
+		"name":"刘文清",
+        "content":["哎！","这蛮夷都欺负到我们家门口了，不把他们打回去，家里的老小都活不下去，再说也不一定输，要是会输王爷怎么去战场！"],
+        "figure":"h2_png",
+        "scene":"2poluo_jpg",
+        "select":["沉默不语","鼓励大家"],
+        "add":["2-1","3-5"]
+},
+{
+	  	"pre_conditions":"68",
+		"name":"士兵甲",
+        "content":["这位兄弟啊，说得有理，大家在战场好好照应，肯定能回去见老婆孩子的！"],
+        "figure":"bing1_png",
+        "scene":"2poluo_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"69",
+	  	"aside":"到达军营",
+		"name":"士兵甲",
+        "content":["怎么人这么少！"],
+        "figure":"bing1_png",
+        "scene":"2camp_1_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"70",
+		"name":"士兵乙",
+        "content":["有没让你直接去送死就不错，你还想怎样？"],
+        "figure":"bing2_png",
+        "scene":"2camp_1_jpg",
+        "select":[]	
+},
+{
+	  	"pre_conditions":"71",
+		"name":"士兵甲",
+        "content":["自己想找死不要带上别人！"],
+        "figure":"bing1_png",
+        "scene":"2camp_1_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"72",
+	  	"aside":"第一天就发生小小的动乱，负责押送的官吏进去说明情况，不久出来一个人",
+		"name":"赵祁裕",
+        "content":["我就是你们口中的四王爷，和你们一样，我也不想参加战争。但是如果我们不参加，蛮夷不费吹飞之力就会闯到你们的家，奸淫辱掠。这也不会是一群人的战争，朝廷与我们同在，我们一定会胜利的！"],
+        "figure":"si_png",
+        "scene":"2camp_1_jpg",
+        "select":[]
+},
+{	
+	  	"pre_conditions":"73",
+	  	"aside":"台下一片高呼，士兵的气氛为之一振",
+		"name":"刘文清",
+        "content":["(随大众一起高呼，心中不禁暗笑)同样的道理，王爷说出来效果就是不一样啊！"],
+        "figure":"h2_png",
+        "scene":"2camp_1_jpg",
+        "select":[]
+},
+{	
+	  	"pre_conditions":"74",
+	  	"aside":"练兵一周后，接到急报，向东到达金木堡，不料遭到围城",
+		"name":"赵祁裕",
+        "content":["身后就是父老乡亲，不容后退，众将士随我一起作战！"],
+        "figure":"si_png",
+        "scene":"2war_1_jpg",
+        "select":[]
+},
+{	
+	  	"pre_conditions":"75",
+		"name":"刘文清",
+        "content":["(一箭呼啸而过)不行，这样下去一定会死的！"],
+        "figure":"h2_png",
+        "scene":"2war_1_jpg",
+        "select":[]
+},
+{	
+	  	"pre_conditions":"76",
+		"name":"士兵甲",
+        "content":["(被冲上来的大汉一斧头砍到)别杀我！"],
+        "figure":"bing1_png",
+        "scene":"2war_1_jpg",
+        "select":[]
+},
+{	
+	  	"pre_conditions":"77",
+		"name":"敌军小头目",
+        "content":["中原的胆小鬼，不堪一击，哈哈哈！"],
+        "figure":"di1_png",
+        "scene":"2war_1_jpg",
+        "select":[]
+},
+{	
+	  	"pre_conditions":"78",
+		"name":"刘文清",
+        "content":["被敌方大汉打死，阵亡！","趁机后撤，转入民居房！"],
+        "figure":"h2_png",
+        "scene":"2war_1_jpg",
+        "select":["前去帮忙","撤退躲藏"],
+        "add":["3-5","2-5"],
+        "next":["-1","79"]
+
+},
+{	
+	  	"pre_conditions":"79",
+		"name":"刘文清",
+        "content":["被随后的敌军找到，阵亡！","将房间里的东西翻乱，造成已经有人来过的假象！"],
+        "figure":"h2_png",
+        "scene":"1house_1_jpg",
+        "select":["赶紧找个地方藏起来","冷静下来思考对策"],
+        "add":["0-0","2-5"],
+        "next":["-1","80"]
+},
+{	
+	  	"pre_conditions":"80",
+	  	"aside":"有几个敌兵进来了",
+		"name":"敌军小头目",
+        "content":["那群小狼狗，打仗不拼命，抢起东西倒是厉害，翻成这样还能有什么，我们走！"],
+        "figure":"di1_png",
+        "scene":"1house_1_jpg",
+        "select":[]
+},
+{	
+	  	"pre_conditions":"81",
+		"name":"刘文清",
+        "content":["松了一口气，突然听到旁边也有人松气的声音(大吃一惊)！"],
+        "figure":"h2_png",
+        "scene":"1house_1_jpg",
+        "select":[]
+},
+{	
+	  	"pre_conditions":"82",
+		"name":"？？？",
+        "content":["(沙哑的女声)你是谁！"],
+        "figure":"qing2_png",
+        "scene":"1house_1_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"83",
+		"name":"刘文清",
+        "content":["(吓得吃惊压住她的嘴)不要说话！"],
+        "figure":"h2_png",
+        "scene":"1house_1_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"84",
+	  	"aside":"等人走远了，刘文清松了手",
+		"name":"？？？",
+        "content":["文清？"],
+        "figure":"qing2_png",
+        "scene":"1house_1_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"85",
+		"name":"刘文清",
+        "content":["(征住认真看向摸了烟灰脸的她)青虹，你怎么这样了？"],
+        "figure":"h2_png",
+        "scene":"1house_1_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"86",
+		"name":"莫青虹",
+        "content":["文清，呜呜呜！！！"],
+        "figure":"qing2_png",
+        "scene":"1house_1_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"87",
+		"name":"刘文清",
+        "content":["没事，遇见我了，一切都会好起来的！","别哭了，回头引来了敌军就不好了!"],
+        "figure":"h2_png",
+        "scene":"1house_1_jpg",
+        "select":["拥抱安慰","怕吸引敌军"],
+        "add":["4-10","2-5"]
+},
+{
+		"pre_conditions":"88",
+		"name":"莫青虹",
+        "content":["(停止了哭声)文清，你听有个人的脚步声，向是朝我们这里来！"],
+        "figure":"qing2_png",
+        "scene":"1house_1_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"89",
+		"name":"刘文清",
+        "content":["你别动，我出去看看！","我们别出声，不会别发现的!"],
+        "figure":"h2_png",
+        "scene":"1house_1_jpg",
+        "select":["先发制人","静观其变"],
+        "add":["1-10","2-5"],
+        "next":["90","96"]
+},
+{
+		"pre_conditions":"90",
+		"name":"赵祁裕",
+        "content":["(拔剑相向)你是逃兵？"],
+        "figure":"si_png",
+        "scene":"1house_1_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"91",
+		"name":"刘文清",
+        "content":["王爷现如今如此，不也是一样嘛，怎么还想军法处置我！","王爷，前线兵败，我不得已!"],
+        "figure":"h2_png",
+        "scene":"1house_1_jpg",
+        "select":["和我一样还指责我","解释清楚"],
+        "add":["1-10","3-5"]
+},
+{
+		"pre_conditions":"92",
+		"name":"赵祁裕",
+        "content":["(放下剑)溃败成这个样子，只能是我指挥不力！"],
+        "figure":"si_png",
+        "scene":"1house_1_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"93",
+		"name":"刘文清",
+        "content":["只要活着，一定可以打回去的！","王爷，你知道就好!"],
+        "figure":"h2_png",
+        "scene":"1house_1_jpg",
+        "select":["认真安慰","说出真话"],
+        "add":["5-5","5-10"]
+},
+{
+		"pre_conditions":"94",
+		"name":"赵祁裕",
+        "content":["(听到不远处的马蹄声似乎朝这里来)快离开这！"],
+        "figure":"si_png",
+        "scene":"1house_1_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"95",
+		"aside":"在路上，不幸遇到了小股敌军，如何应对？",
+		"name":"刘文清",
+        "content":["(背对着敌军搂住青虹)长得丑也好歹是个姑娘，你还傻站着干嘛，别被别人抢了！","合力勉强杀掉敌人"],
+        "figure":"h2_png",
+        "scene":"2po_jpg",
+        "select":["假装是敌军","人数不多动手"],
+        "add":["2-10","1-10"],
+        "next":["97","99"],
+        "texture":"fire"
+},
+{
+		"pre_conditions":"96",
+		"aside":"不久出逃，在路上，遇见四王爷一起行路，不幸遇到了小股敌军，如何应对？",
+		"name":"刘文清",
+        "content":["(背对着敌军搂住青虹)长得丑也好歹是个姑娘，你还傻站着干嘛，别被别人抢了！","合力勉强杀掉敌人"],
+        "figure":"h2_png",
+        "scene":"2po_jpg",
+        "select":["假装是敌军","人数不多动手"],
+        "add":["2-10","1-10"],
+        "next":["97","99"],
+        "texture":"fire"
+},
+
+{
+		"pre_conditions":"97",
+		"name":"莫青虹",
+        "content":["(心领神会,假装挣扎)大爷大爷，你放了我的吧！"],
+        "figure":"qing2_png",
+        "scene":"2po_jpg",
+        "select":[],
+        "add":["4-10"],
+        "texture":"fire"
+},
+{
+		"pre_conditions":"98",
+		"name":"赵祁裕",
+        "content":["没想到，你还蛮机灵的！"],
+        "figure":"si_png",
+        "scene":"2po_jpg",
+        "select":[],
+        "add":["5-10"],
+        "texture":"fire"
+},
+{
+		"pre_conditions":"99",
+		"aside":"安全逃到野外，大家停下来休息",
+		"name":"赵祁裕",
+        "content":["现在看兵力，我方不一定会输，但是大将军死了，再多的兵力也是一盘散沙，我们最需要一个身份地位能压得住这些将领的人去边城！"],
+        "figure":"si_png",
+        "scene":"2shu_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"100",
+		"name":"刘文清",
+        "content":["(斜眼看了赵祁裕，皱了皱眉)你意思是你是那个人！","我不感兴趣，我只想带我妹子离开！"],
+        "figure":"h2_png",
+        "scene":"2shu_jpg",
+        "select":["他在说自己","不理他"],
+        "add":["2-5","4-10"],
+        "next":["104","101"]
+},
+{
+		"pre_conditions":"101",
+		"name":"赵祁裕",
+        "content":["(站起来俯视着刘)刘文清，本王记得你登记栏没有妹妹，这是国家大事，你不要见色忘义！"],
+        "figure":"si_png",
+        "scene":"2shu_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"102",
+		"name":"刘文清",
+        "content":["(站起身，正视着他)我现在最重要的事情就是带她离开边境！"],
+        "figure":"h2_png",
+        "scene":"2shu_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"103",
+		"name":"莫青虹",
+        "content":["(垂下眼帘)文清，我与你也没有什么过深的交情，你没必要为我违背王爷，不值得！"],
+        "figure":"qing2_png",
+        "scene":"2shu_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"104",
+	    "aside":"大家休息，醒来后发现青虹独自离开了",
+		"name":"赵祁裕",
+        "content":["(叹气)她可以和我们一起走的！"],
+        "figure":"si_png",
+        "scene":"2shu_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"105",
+		"name":"刘文清",
+        "content":["我要去找她！","我们走吧，有缘分我和她再见吧！"],
+        "figure":"h2_png",
+        "scene":"2shu_jpg",
+        "select":["她一个人不安全","对大山她更熟悉，躲着我也找不到她"],
+        "add":["1-10","5-5"],
+        "next":["106","108"]
+},
+{
+		"pre_conditions":"106",
+		"name":"赵祁裕",
+        "content":["(拉住刘文清)这里这么大，你去哪里找她，况且她是有意躲藏，你怎么找？"],
+        "figure":"si_png",
+        "scene":"2shu_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"107",
+		"name":"刘文清",
+        "content":["(沉默许久)好，那我们走吧，也许她会在我们身边！"],
+        "figure":"h2_png",
+        "scene":"2shu_jpg",
+        "select":[],
+        "add":["4-5"]
+},
+{
+		"pre_conditions":"108",
+	    "aside":"刘文清驾着马车即将到达边城",
+		"name":"赵祁裕",
+        "content":["这一路辛苦你了，没想到你年纪轻轻，坑蒙拐骗挺厉害的嘛！"],
+        "figure":"si_png",
+        "scene":"2road_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"109",
+		"name":"刘文清",
+        "content":["我一个平头老百姓倒没什么，可不是四王殿下要靠坑蒙拐骗绕过敌占区嘛，我特意为四王爷你做的，感动吧！","扬鞭猛抽马屁股，马车突然加速，四王爷猝不及防摔了啃地姿势"],
+        "figure":"h2_png",
+        "scene":"2road_jpg",
+        "select":["反讥他","先给教训"],
+        "add":["2-5","1-5"]
+},
+{
+		"pre_conditions":"110",
+		"name":"赵祁裕",
+        "content":["(僵在一个阴沉表情，良久才说出一句)刘文清。。。"],
+        "figure":"si_png",
+        "scene":"2road_jpg",
+        "select":[],
+        "add":["5-5"]
+},
+{
+		"pre_conditions":"111",
+		"name":"刘文清",
+        "content":["四王爷居然这么亲切称呼小的大名，谢谢您的肯定，我会继续努力的！"],
+        "figure":"h2_png",
+        "scene":"2road_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"112",
+		"name":"赵祁裕",
+        "content":["不要面者，天下无敌！"],
+        "figure":"si_png",
+        "scene":"2road_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"113",
+		"aside":"到达军营后，赵祁裕迅速和众将领聚议，过个四五个时辰他才出来",
+		"name":"刘文清",
+        "content":["(把手上的羊肉馍和水递给他)怎么样？"],
+        "figure":"h2_png",
+        "scene":"2dark_camp_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"114",
+		"name":"赵祁裕",
+        "content":["布防已经安排，稳住不出乱，蛮夷入了丘陵地带就是他们的葬身之地！"],
+        "figure":"si_png",
+        "scene":"2dark_camp_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"115",
+		"name":"刘文清",
+        "content":["四王爷灵心慧齿！","他们都是久战沙场的老将，如何服气一个小王爷的安排！"],
+        "figure":"h2_png",
+        "scene":"2dark_camp_jpg",
+        "select":["这么厉害","问问情况"],
+        "add":["5-5","2-5"]
+},
+{
+		"pre_conditions":"116",
+		"name":"赵祁裕",
+        "content":["第一，我从最前线回来，最了解情况，第二，我是个且不算蠢的四王子，第三，我十二岁入朝堂，在户部和兵部当了七八年差，有点名气的将领和官员优缺喜好一一了解！"],
+        "figure":"si_png",
+        "scene":"2dark_camp_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"117",
+		"name":"刘文清",
+        "content":["厉害了，我的王爷！我去换岗了！","奔波了这么多天，都没有好好休息过，我们去休息吧！"],
+        "figure":"h2_png",
+        "scene":"2dark_camp_jpg",
+        "select":["去换岗","去休息"],
+        "add":["1-5","5-5"],
+        "next":["118","132"]
+},
+{
+		"pre_conditions":"118",
+		"name":"赵祁裕",
+        "content":["才刚到军营，先去休息吧!"],
+        "figure":"si_png",
+        "scene":"2dark_camp_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"119",
+		"name":"刘文清",
+        "content":["也是，奔波了这么多天，都没有好好休息过，我们去休息吧！","不了，我之前休息过了，王爷不也忙到现在，我一个小兵怎么能偷懒！"],
+        "figure":"h2_png",
+        "scene":"2dark_camp_jpg",
+        "select":["好吧","算了"],        
+        "add":["1-10","3-10"],
+        "next":["132","120"]
+},
+{
+       "pre_conditions":"120",
+        "aside":"前半夜一直没有动静，到了要换刘文清的班的时候",
+		"name":"小兵",
+        "content":["今晚很奇怪，对面蛮人营很安静，以前他们这个时候还会有喝酒吵闹的声音！"],
+        "figure":"bing2_png",
+        "scene":"2dark_camp_jpg",
+        "select":[]	
+},
+{
+		"pre_conditions":"121",
+		"name":"刘文清",
+        "content":["我不困，我陪你们再聊一下！","想多了，也许今天他们喝多了，去睡觉了！"],
+        "figure":"h2_png",
+        "scene":"2dark_camp_jpg",
+        "select":["谨慎一点","多心了吧"],        
+        "add":["2-5","1-5"],
+        "next":["122","133"]
+},
+{
+	    "pre_conditions":"122",
+		"name":"小兵",
+        "content":["你看那边有火光（说完一个大石砸下）"],
+        "figure":"bing2_png",
+        "scene":"2dark_camp_jpg",
+        "select":[]	
+},
+{
+		"pre_conditions":"123",
+		"name":"刘文清",
+        "content":["天上砸石头了！","那群蛮子居然在晚上用投石机，快叫人把火都熄了！"],
+        "figure":"h2_png",
+        "scene":"2dark_camp_jpg",
+        "select":["天降陨石","投石机"],        
+        "add":["0-0","2-5"],
+        "next":["-1","124"],
+        "texture":"fireball"
+},
+{
+	    "pre_conditions":"124",
+		"name":"小兵",
+        "content":["好好，刘兄弟你去干嘛！"],
+        "figure":"bing2_png",
+        "scene":"2dark_camp_jpg",
+        "select":[],
+        "texture":"fireball"	
+},
+{
+		"pre_conditions":"125",
+		"name":"刘文清",
+        "content":["出去迎敌！","报告敌情！"],
+        "figure":"h2_png",
+        "scene":"2dark_camp_jpg",
+        "select":["出去迎敌","报告敌情"],        
+        "add":["1-10","2-10"],
+        "next":["131","126"],
+        "texture":"fireball"
+},
+{
+		"pre_conditions":"126",
+		"name":"赵祁裕",
+        "content":["怎么了！"],
+        "figure":"si_png",
+        "scene":"2camp_1_jpg",
+        "select":[],
+        "texture":"fireball",
+        "add":["5-5"]
+},
+{
+		"pre_conditions":"127",
+		"name":"刘文清",
+        "content":["那群蛮子用投石机攻打我们营地，我要问你借骑兵去去烧了那些投石机"],
+        "figure":"h2_png",
+        "scene":"2camp_1_jpg",
+        "select":[],
+        "texture":"fireball"
+},
+{
+		"pre_conditions":"128",
+		"name":"赵祁裕",
+        "content":["不行，他们说不定有埋伏，而且你骑术那么差，没打都摔死了！"],
+        "figure":"si_png",
+        "scene":"2camp_1_jpg",
+        "select":[],
+        "texture":"fireball"
+},
+{
+		"pre_conditions":"129",
+		"name":"刘文清",
+        "content":["再犹豫下去营地都砸光了！"],
+        "figure":"h2_png",
+        "scene":"2camp_1_jpg",
+        "select":[],
+        "texture":"fireball"
+},
+{
+		"pre_conditions":"130",
+		"name":"赵祁裕",
+        "content":["这样，我带一队人马拿着火把帮你打掩护，你带那点火药找点视力好的兵摸过去点了它！"],
+        "figure":"si_png",
+        "scene":"2camp_1_jpg",
+        "select":[],
+        "texture":"fireball"
+},
+{
+		"pre_conditions":"131",
+		"aside":"经过一夜奋战，烧毁所有投石车，双方死伤各半",
+		"name":"刘文清",
+        "content":["谢谢你在战场救了我一命！"],
+        "figure":"h2_png",
+        "scene":"2camp_2_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"132",
+		"name":"赵祁裕",
+        "content":["好了，没事去休息吧！"],
+        "figure":"si_png",
+        "scene":"2camp_2_jpg",
+        "select":[]
+},
+{
+	    "pre_conditions":"133",
+	    "aside":"睡了一觉醒来，刘文清发现自己的升令到了",
+		"name":"弘毅",
+        "content":["刘都伯，恭喜你升任从六品都伯！"],
+        "figure":"hong_png",
+        "scene":"2camp_2_jpg",
+        "select":[]	
+},
+{
+		"pre_conditions":"134",
+		"name":"刘文清",
+        "content":["我也没有送礼，上面也没有人，突然升得这么快我好害怕啊！","什么情况！"],
+        "figure":"h2_png",
+        "scene":"2camp_2_jpg",
+        "select":["不会有人想潜规则我吧","一脸懵逼"],
+        "add":["0-0","0-0"]
+},
+{
+	    "pre_conditions":"135",
+		"name":"弘毅",
+        "content":["刘都伯，你做了这么多大家都是有目共睹的，以后你我同是四王爷帐下的将领！（身后的人突然拍了拍他）王爷！"],
+        "figure":"hong_png",
+        "scene":"2camp_2_jpg",
+        "select":[]	
+},
+{
+		"pre_conditions":"136",
+		"name":"赵祁裕",
+        "content":["你先走吧，我和小都伯说些事情！(说完盯着刘文清并不说了)"],
+        "figure":"si_png",
+        "scene":"2camp_2_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"137",
+		"name":"刘文清",
+        "content":["你这样看着我干嘛？","怎么让我当都伯?"],
+        "figure":"h2_png",
+        "scene":"2camp_2_jpg",
+        "select":["莫名其妙","问升任的事"],
+        "add":["5-5","2-5"]
+},
+{
+		"pre_conditions":"138",
+		"name":"赵祁裕",
+        "content":["一直觉得刘文清这个名字太正不适合你，突然觉得叫你小都伯很适合，就建议他们升任了！小都伯，你和其他士兵不一样额！"],
+        "figure":"si_png",
+        "scene":"2camp_2_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"139",
+		"name":"刘文清",
+        "content":["王爷也和其他人不一样！","我这么优秀当然不一样！"],
+        "figure":"h2_png",
+        "scene":"2camp_2_jpg",
+        "select":["他不会发现了什么吧","我这么优秀当然不一样"],
+        "add":["2-5","5-5"],
+        "next":["140","142"]
+},
+{
+		"pre_conditions":"140",
+		"name":"赵祁裕",
+        "content":["本王是皇族，当然与众不同，你知道我说的什么嘛？"],
+        "figure":"si_png",
+        "scene":"2camp_2_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"141",
+		"name":"刘文清",
+        "content":["我能在黑夜里擒住对方头领，当然不一样！","你该不会说我长得好看，看上我了吧，我不接受额！"],
+        "figure":"h2_png",
+        "scene":"2camp_2_jpg",
+        "select":["自我赞赏","怕怀疑圆疑点"],
+        "add":["3-5","2-5"]
+},
+{
+		"pre_conditions":"142",
+		"name":"赵祁裕",
+        "content":["不要面者，天下无敌！"],
+        "figure":"si_png",
+        "scene":"2camp_2_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"143",
+		"aside":"一年过去，战场的局势已经是我们占优势，战争快要结束了，赵祁裕却被圣旨召回去",
+		"name":"刘文清",
+        "content":["王爷，为什么送我玲珑棋子?"],
+        "figure":"h2_png",
+        "scene":"2shu_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"144",
+		"name":"赵祁裕",
+        "content":["你不知道！"],
+        "figure":"si_png",
+        "scene":"2shu_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"145",
+		"name":"刘文清",
+        "content":["我不知道！"],
+        "figure":"h2_png",
+        "scene":"2shu_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"146",
+		"name":"赵祁裕",
+        "content":["你真不知道！"],
+        "figure":"si_png",
+        "scene":"2shu_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"147",
+		"name":"刘文清",
+        "content":["（虽然知道他有病但是还是不能说出来）我不知道！","我真不知道！"],
+        "figure":"h2_png",
+        "scene":"2shu_jpg",
+        "select":["他今天脑子坏了吧","什么鬼对话"],
+        "add":["0-0","0-0"]
+},
+{
+		"pre_conditions":"148",
+		"name":"赵祁裕",
+        "content":["也是，你没读什么书，没文化真可怕！嗯。。。目的就是希望你多下棋，开发智力，毕竟你太蠢。小都伯，别一个人偷偷死了，本王以后还要检验你棋力呢！"],
+        "figure":"si_png",
+        "scene":"2shu_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"149",
+		"name":"刘文清",
+        "content":["我就送到这里了！（不想再见不送）"],
+        "figure":"h2_png",
+        "scene":"2shu_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"150",
+		"name":"赵祁裕",
+        "content":["小都伯，我找到你的妹子了，在南方，很安全的地方，打完仗你们就可以团聚了，你好好保护自己！"],
+        "figure":"si_png",
+        "scene":"2shu_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"151",
+		"name":"刘文清",
+        "content":["(转头对上赵祁裕的目光)谢谢你！"],
+        "figure":"h2_png",
+        "scene":"2shu_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"152",
+		"aside":"在最后的一次战斗中，刘文清提倡穷寇莫追，却无奈被派去追击，后续部队未跟上被反围击",
+		"name":"刘文清",
+        "content":["年纪一大把还心眼这么坏，这下是天要亡我了！"],
+        "figure":"h2_png",
+        "scene":"2po_jpg",
+        "select":[]
+},
+{
+	    "pre_conditions":"153",
+		"name":"弘毅",
+        "content":["刘都伯，跟我走！"],
+        "figure":"hong_png",
+        "scene":"2po_jpg",
+        "select":[]	
+},
+{
+		"pre_conditions":"154",
+		"name":"刘文清",
+        "content":["好的!","不必了！"],
+        "figure":"h2_png",
+        "scene":"2po_jpg",
+        "select":["相信战友","来得太巧，怀疑"],
+        "add":["3-5","0-0"],
+        "next":["155","-1"]
+},
+{
+	    "pre_conditions":"155",
+	    "aside":"弘毅以一敌百，带刘文清冲出了敌军",
+		"name":"刘文清",
+        "content":["弘毅将军，谢谢你！"],
+        "figure":"h2_png",
+        "scene":"2shu_jpg",
+        "select":[]	
+},
+{
+	    "pre_conditions":"156",
+		"name":"弘毅",
+        "content":["刘都伯是王爷的心腹，难免会有小人陷害，故王爷特意嘱咐我，一定不能让刘都伯受伤！"],
+        "figure":"hong_png",
+        "scene":"2shu_jpg",
+        "select":[]	
+},
+{
+		"pre_conditions":"157",
+		"aside":"战争终于结束了，我们全面胜利，收回失地，还有了不少部落称臣，刘文清也收到了调任",
+		"name":"刘文清",
+        "content":["南方..."],
+        "figure":"h2_png",
+        "scene":"2camp_1_jpg",
+        "select":[]
+},
+{
+		"pre_conditions":"158",
+		"aside":"到达任职地点，南方此时雨纷纷，路上行人不多",
+	 	"name":"小铃",
+        "scene":"3officials_1_jpg",
+        "content":["大人，雨大，带上手巾吧，可以擦雨水！"],
+        "figure":"nv_png",
+        "select":[],
+        "texture":"rain"
+},
+{
+		"pre_conditions":"159",
+	 	"name":"刘文清",
+        "scene":"3officials_1_jpg",
+        "content":["好的，谢谢！","这么近不用的，谢谢了！"],
+        "figure":"h1_png",
+        "select":["带上","不用"],
+        "next":["160","162"],
+        "add":["2-5","1-10"],
+        "texture":"rain"
+},
+{
+		"pre_conditions":"160",
+	 	"name":"柳骁然",
+        "scene":"3officials_1_jpg",
+        "content":["（一身雨水闯了进来）对不起，我来晚了！"],
+        "figure":"liu_png",
+        "select":[],
+        "texture":"rain"
+},
+{
+		"pre_conditions":"161",
+	 	"name":"刘文清",
+        "scene":"3officials_1_jpg",
+        "content":["柳司马，辛苦了，这么大雨！","擦擦雨水，不要着凉了！","柳司马，我带了几把，这伞给你，你尽早回去换衣服吧！"],
+        "figure":"h1_png",
+        "select":["好言问候","递上手巾","递上油纸伞"],
+        "next":["164","164","164"],
+        "add":["6-5","6-20","6-10"],
+        "texture":"rain"
+},
+{
+		"pre_conditions":"162",
+	 	"name":"柳骁然",
+        "scene":"3officials_1_jpg",
+        "content":["（一身雨水闯了进来）对不起，我来晚了！"],
+        "figure":"liu_png",
+        "select":[],
+        "texture":"rain"
+},
+{
+		"pre_conditions":"163",
+	 	"name":"刘文清",
+        "scene":"3officials_1_jpg",
+        "content":["柳司马，辛苦了，这么大雨！","柳司马，我带了几把，这伞给你，你尽早去换衣服吧！"],
+        "figure":"h1_png",
+        "select":["好言问候","递上油纸伞"],
+        "next":["164","164"],
+        "add":["6-5","6-10"],
+        "texture":"rain"
+},
+{
+		"pre_conditions":"164",
+	 	"name":"柳骁然",
+        "scene":"3officials_1_jpg",
+        "content":["（愣了半响，半鞠躬道谢）谢谢！"],
+        "figure":"liu_png",
+        "select":[],
+        "texture":"rain"
+},
+{
+		"pre_conditions":"165",
+	 	"name":"刘文清",
+        "scene":"3officials_1_jpg",
+        "content":["不好意思，我是新上任的录事参军，请多包涵！"],
+        "figure":"h1_png",
+        "select":[],
+        "texture":"rain"
+},
+{
+		"pre_conditions":"166",
+		"aside":"几日后，在公事结束后，柳司马叫住刘参军",
+	 	"name":"柳骁然",
+        "scene":"3officials_2_jpg",
+        "content":["（笑笑，挠挠后脑勺）刘参军，上次谢谢你！"],
+        "figure":"liu_png",
+        "select":[]
+},
+{
+		"pre_conditions":"167",
+	 	"name":"刘文清",
+        "scene":"3officials_2_jpg",
+        "content":["柳司马，太客气了，你谢过了！"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"168",
+	 	"name":"柳骁然",
+        "scene":"3officials_2_jpg",
+        "content":["（踌躇了一会，好像不知道怎么开口）嗯。。。你知道吗，明天有庙会？"],
+        "figure":"liu_png",
+        "select":[]
+},
+{
+		"pre_conditions":"169",
+	 	"name":"刘文清",
+        "scene":"3officials_2_jpg",
+        "content":["啊？你说了，我知道了！"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"170",
+	 	"name":"柳骁然",
+        "scene":"3officials_2_jpg",
+        "content":["庙会啊，很多好玩的东西，很值得一去的！"],
+        "figure":"liu_png",
+        "select":[]
+},
+{
+		"pre_conditions":"171",
+	 	"name":"刘文清",
+        "scene":"3officials_2_jpg",
+        "content":["你的意思，是要我去吗？"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"172",
+	 	"name":"柳骁然",
+        "scene":"3officials_2_jpg",
+        "content":["(顿时开心起来)是的呐，我带钱去，明天傍晚青石街街口见！"],
+        "figure":"liu_png",
+        "select":[]
+},
+{
+		"pre_conditions":"173",
+	 	"name":"柳骁然",
+        "scene":"3temple_jpg",
+        "content":["我带你去看看，这个这个好玩，那个那个好吃！"],
+        "figure":"liu_png",
+        "select":[],
+        "texture":"light"
+},
+{
+		"pre_conditions":"174",
+	 	"name":"刘文清",
+        "scene":"3temple_jpg",
+        "content":["柳司马.....","柳司马，不着急，我跟着你一个个看过去！"],
+        "figure":"h1_png",
+        "select":["柳司马还是是少年心性！","没想到他和小孩子一样"],
+        "add":["6-5","6-10"],
+        "texture":"light"
+},
+{
+		"pre_conditions":"175",
+	 	"name":"柳骁然",
+        "scene":"3temple_jpg",
+        "content":["柳司马，这个名字听着就像提醒我还有公事没做完，不要了，你以后叫我阿柳吧！"],
+        "figure":"liu_png",
+        "select":[],
+        "texture":"light"
+},
+{
+		"pre_conditions":"176",
+	 	"name":"刘文清",
+        "scene":"3temple_jpg",
+        "content":["怎么会，没有那个意思(看到柳司马殷切的眼神)好吧，阿柳！"],
+        "figure":"h1_png",
+        "select":[],
+        "texture":"light"
+},
+{
+		"pre_conditions":"177",
+	 	"name":"柳骁然",
+        "scene":"3temple_jpg",
+        "content":["(开心得咬了一大口手里的煎饼)嗯，这个好吃，给你！"],
+        "figure":"liu_png",
+        "select":[],
+        "texture":"light"
+},
+{
+		"pre_conditions":"178",
+		"aside":"过了很久时间，柳骁然和刘文清逛了一圈出来了",
+	 	"name":"柳骁然",
+        "scene":"3temple_jpg",
+        "content":["今天，玩得很开心，谢谢你！"],
+        "figure":"liu_png",
+        "select":[]
+},
+{
+		"pre_conditions":"179",
+	 	"name":"刘文清",
+        "scene":"3temple_jpg",
+        "content":["今天的东西也很好吃，不客气！"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"180",
+	 	"name":"柳骁然",
+        "scene":"3temple_jpg",
+        "content":["那，那以后，还有这样的，你还来吗，我请客啊？"],
+        "figure":"liu_png",
+        "select":[]
+},
+{
+		"pre_conditions":"181",
+	 	"name":"刘文清",
+        "scene":"3temple_jpg",
+        "content":["下次怎么还能你请客，我看起来很穷嘛？","除非你以后不告诉我！"],
+        "figure":"h1_png",
+        "select":["下次怎么还能你请客，我看起来很穷嘛？","除非你以后不告诉我！"],
+        "add":["6-10","6-5"]
+},
+{
+		"pre_conditions":"182",
+	 	"name":"柳骁然",
+        "scene":"3temple_jpg",
+        "content":["不会，不会，咦，你同意了！"],
+        "figure":"liu_png",
+        "select":[]	
+},
+{
+		"pre_conditions":"183",
+	 	"name":"刘文清",
+        "scene":"3temple_jpg",
+        "content":["嗯，那我先走了，回见！"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"184",
+	 	"name":"小铃",
+        "scene":"3schoolroom1_jpg",
+        "content":["大人，查到了，莫姑娘的确在一家医馆工作，但是她最近跟随例行下乡看病了，行踪不定，大概一个月后才会回来!"],
+        "figure":"nv_png",
+        "select":[]
+},
+{
+		"pre_conditions":"185",
+	 	"name":"刘文清",
+        "scene":"3schoolroom1_jpg",
+        "content":["给莫姑娘的医馆捐点善款，多照看一点！","以后麻烦你多去医馆看看，如果她回来了通知我！","好的，我以后会多去医馆照看！"],
+        "figure":"h1_png",
+        "select":["多照看些","多去医馆","自己处理"],
+        "add":["3-5","2-5","4-10"]
+},
+{
+		"pre_conditions":"186",
+	 	"name":"小铃",
+        "scene":"3schoolroom1_jpg",
+        "content":["好的，大人，我告退了！"],
+        "figure":"nv_png",
+        "select":[]
+},
+{
+		"pre_conditions":"187",
+		"aside":"新到任的刺史请刘文清前去府上",
+	 	"name":"赵祁裕",
+        "scene":"3bedroom1_jpg",
+        "content":["小都伯，好久不见，别来无恙！"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"188",
+	 	"name":"刘文清",
+        "scene":"3bedroom1_jpg",
+        "content":["谢王爷记挂，卑职一切安好！","我调任了，都不是都伯了！","谢王爷记挂，卑职也挂念着王爷，王爷最近一切可好！"],
+        "figure":"h1_png",
+        "select":["谢王爷记挂，卑职一切安好！","我调任了，都不是都伯了！","谢王爷记挂，卑职也挂念着王爷，王爷最近一切可好！"],
+        "add":["3-2","2-2","5-10"],
+        "next":["189","191","193"]
+},
+{
+		"pre_conditions":"189",
+	 	"name":"赵祁裕",
+        "scene":"3bedroom1_jpg",
+        "content":["看来，小都伯还是不懂玲珑棋子的意思啊！"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"190",
+	 	"name":"刘文清",
+        "scene":"3bedroom1_jpg",
+        "content":["棋子而已，只是工具！","多下棋，练棋艺，你当初不是这样说的嘛？","王爷，想必来江南才是真的有深意吧"],
+        "figure":"h1_png",
+        "select":["棋子而已，只是工具","多下棋，练棋艺，你当初不是这样说的嘛？","绕过这个话题"],
+        "add":["2-5","5-5","3-5"],
+        "next":["197","195","197"]
+},
+{
+		"pre_conditions":"191",
+	 	"name":"赵祁裕",
+        "scene":"3bedroom1_jpg",
+        "content":["小都伯又不是官职，只是我对你的称呼而已，看来你的智力还是没有提升，我不在的时候没下围棋吧！"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"192",
+	 	"name":"刘文清",
+        "scene":"3bedroom1_jpg",
+        "content":["你开心就好！","我是想下，在军队大家都练武艺，没人陪我下棋！"],
+        "figure":"h1_png",
+        "select":["你开心就好！","我是想下，在军队没时间"],
+        "add":["5-5","1-5"],
+        "next":["197","195"]
+},
+{
+		"pre_conditions":"193",
+	 	"name":"赵祁裕",
+        "scene":"3bedroom1_jpg",
+        "content":["看来，小都伯还是懂了玲珑棋子的意思啊！"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"194",
+	 	"name":"刘文清",
+        "scene":"3bedroom1_jpg",
+        "content":["那...王爷认为我懂的意思是什么？","王爷，不要再开玩笑了，说正事吧！"],
+        "figure":"h1_png",
+        "select":["王爷认为我懂得意思是什么？","王爷，不要再开玩笑了，说正事吧！"],
+        "add":["5-5","3-5"],
+        "next":["195","197"]
+},
+{
+		"pre_conditions":"195",
+	 	"name":"赵祁裕",
+        "scene":"3bedroom1_jpg",
+        "content":["无味红豆醉人酒，玲珑棋子相思局。"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"196",
+	 	"name":"刘文清",
+        "scene":"3bedroom1_jpg",
+        "content":["哎，王爷，我知道你是有其他事情要说，不要再绕了！"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"197",
+	 	"name":"赵祁裕",
+        "scene":"3bedroom1_jpg",
+        "content":["(收住笑意，正色道)老七娶了柳氏为侧妃，在江南这块柳族是最大的氏族，恐怕半个江南以上的官员都是老七那边的了！"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"198",
+	 	"name":"刘文清",
+        "scene":"3bedroom1_jpg",
+        "content":["七王爷的侧妃是？"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"199",
+	 	"name":"赵祁裕",
+        "scene":"3bedroom1_jpg",
+        "content":["柳骁然同父同母的妹妹，我希望你能帮我盯着他们，如果能找到违法乱纪的事情最好不过！"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"200",
+	 	"name":"刘文清",
+        "scene":"3bedroom1_jpg",
+        "content":["下官明白了，下官还有公事未完成，先行告退了！"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"201",
+		"aside":"当日傍晚，刘文清应约和柳骁然出来吃晚饭",
+	 	"name":"柳骁然",
+        "scene":"3block_jpg",
+        "content":["阿刘，阿柳，刘柳那么相像，为什么我们差别那么大！"],
+        "figure":"liu_png",
+        "select":[],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"202",
+	 	"name":"刘文清",
+        "scene":"3block_jpg",
+        "content":["摸摸阿柳沮丧的脑袋，阿柳无力得蹭蹭了我的手","人和人都是不一样的，阿柳，你怎么了？"],
+        "figure":"h1_png",
+        "select":["摸摸阿柳","安慰阿柳"],
+        "add":["6-10","1-5"],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"203",
+	 	"name":"柳骁然",
+        "scene":"3block_jpg",
+        "content":["阿刘，我是不是很没用？"],
+        "figure":"liu_png",
+        "select":[],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"204",
+	 	"name":"刘文清",
+        "scene":"3block_jpg",
+        "content":["怎么会，你年纪轻轻就已经是从五品了！","才没有，你很厉害啊，你是探花啊！"],
+        "figure":"h1_png",
+        "select":["怎么会，你年纪轻轻就已经是从五品了","才没有，你很厉害啊，你是探花啊！"],
+        "add":["6-10","1-5"],
+        "next":["205","207"],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"205",
+	 	"name":"柳骁然",
+        "scene":"3block_jpg",
+        "content":["那是家里花钱打点的！"],
+        "figure":"liu_png",
+        "select":[],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"206",
+	 	"name":"刘文清",
+        "scene":"3block_jpg",
+        "content":["阿柳，如果是因为家族，你可以尽力摆脱的！","阿柳，没有人一开始就是强大的，都是有所依靠！"],
+        "figure":"h1_png",
+        "select":["阿柳，如果是因为家族，你可以尽力摆脱的","阿柳，没有人一开始就是强大的，都是有所依靠"],
+        "add":["2-5","1-5"],
+        "next":["209","209"],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"207",
+	 	"name":"柳骁然",
+        "scene":"3block_jpg",
+        "content":["还不是靠长得好看得到的，探花有什么用，连妹妹都保护不了！"],
+        "figure":"liu_png",
+        "select":[],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"208",
+	 	"name":"刘文清",
+        "scene":"3block_jpg",
+        "content":["阿柳，妹妹的事不是你的错，你不要怪自己！","阿柳，有些事是命中注定，我们改变不了！"],
+        "figure":"h1_png",
+        "select":["阿柳，妹妹的事不是你的错，你不要怪自己","阿柳，有些事是命中注定，我们改变不了"],
+        "add":["6-10","3-5"],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"209",
+	 	"name":"柳骁然",
+        "scene":"3block_jpg",
+        "content":["母亲去世，答应她，以后会保护好妹妹，给她找个好依靠的，可是...这些全由别人做主了！"],
+        "figure":"liu_png",
+        "select":[],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"210",
+	 	"name":"刘文清",
+        "scene":"3block_jpg",
+        "content":["望着纷纷飘落的枫叶，像是想起什么，心里也有些难过。"],
+        "figure":"h1_png",
+        "select":[],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"211",
+		"aside":"次日前去医馆，正好碰到归来的莫青虹",
+	 	"name":"刘文清",
+        "scene":"3hospital_jpg",
+        "content":["青虹，青虹..."],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"212",
+	 	"name":"莫青虹",
+        "scene":"3hospital_jpg",
+        "content":["文清，好久不见！"],
+        "figure":"qing3_png",
+        "select":[]
+},
+{
+		"pre_conditions":"213",
+	 	"name":"刘文清",
+        "scene":"3hospital_jpg",
+        "content":["你上次为什么不告而别？"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"214",
+	 	"name":"莫青虹",
+        "scene":"3hospital_jpg",
+        "content":["记得你和我说过的盖世英雄，你能遇见王爷，也许是你的机遇！"],
+        "figure":"qing3_png",
+        "select":[]
+},
+{
+		"pre_conditions":"215",
+	 	"name":"刘文清",
+        "scene":"3hospital_jpg",
+        "content":["会失去你的盖世英雄，我不想成为！","希望有很多，青虹只有一个，我希望你一直都在！"],
+        "figure":"h1_png",
+        "select":["会失去你的盖世英雄，我不想成为！","希望有很多，青虹只有一个！"],
+        "add":["4-10","4-5"]
+},
+{
+		"pre_conditions":"216",
+	 	"name":"莫青虹",
+        "scene":"3hospital_jpg",
+        "content":["好了，我不是没事嘛，现在。"],
+        "figure":"qing3_png",
+        "select":[]
+},
+{
+		"pre_conditions":"217",
+	 	"name":"刘文清",
+        "scene":"3hospital_jpg",
+        "content":["青虹，你最近怎么样！","莫大叔，他还好吧?","阿乔的状元梦怎么样了！"],
+        "figure":"h1_png",
+        "select":["问青虹的近况","问莫大叔的近况","问阿乔的状元梦"],
+        "add":["4-5","2-10","3-10"],
+        "next":["218","220","224"]
+},
+{
+		"pre_conditions":"218",
+	 	"name":"莫青虹",
+        "scene":"3hospital_jpg",
+        "content":["一切安好！"],
+        "figure":"qing3_png",
+        "select":[]
+},
+{
+		"pre_conditions":"219",
+	 	"name":"刘文清",
+        "scene":"3hospital_jpg",
+        "content":["那就好！"],
+        "figure":"h1_png",
+        "select":[],
+        "next":["226"]
+},
+{
+		"pre_conditions":"220",
+	 	"name":"莫青虹",
+        "scene":"3hospital_jpg",
+        "content":["走散后再遇见他们，才知道爹为救阿乔丧命，我逃回镇里找到尸体埋在了爹常去的那座山上！"],
+        "figure":"qing3_png",
+        "select":[]
+},
+{
+		"pre_conditions":"221",
+	 	"name":"刘文清",
+        "scene":"3hospital_jpg",
+        "content":["青虹，对不起！"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"222",
+	 	"name":"莫青虹",
+        "scene":"3hospital_jpg",
+        "content":["傻瓜，你说什么对不起，我还应该谢谢你打退了他们！"],
+        "figure":"qing3_png",
+        "select":[]
+},
+{
+		"pre_conditions":"223",
+	 	"name":"刘文清",
+        "scene":"3hospital_jpg",
+        "content":["我本来可以保护到你们的！"],
+        "figure":"h1_png",
+        "select":[],
+        "next":["226"]
+},
+{
+		"pre_conditions":"224",
+	 	"name":"莫青虹",
+        "scene":"3hospital_jpg",
+        "content":["（低下眼帘，神情伤感）阿乔...大家都走散了，后来我没再回镇里！"],
+        "figure":"qing3_png",
+        "select":[]
+},
+{
+		"pre_conditions":"225",
+	 	"name":"刘文清",
+        "scene":"3hospital_jpg",
+        "content":["我下次陪你回去，你不要难过！"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"226",
+	 	"name":"莫青虹",
+        "scene":"3hospital_jpg",
+        "content":["好了，没事了，还有病人在等我，我进去了，你先回吧！"],
+        "figure":"qing3_png",
+        "select":[]
+},
+{
+		"pre_conditions":"227",
+		"aside":"朝廷拟西征，大部分军粮计划在江南征得，四王爷负责这次征粮",
+	 	"name":"赵祁裕",
+        "scene":"3schoolroom2_jpg",
+        "content":["小都伯，这次征粮七王的人参与进来，恐怕有大风雨，你不要参与进来！"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"228",
+	 	"name":"刘文清",
+        "scene":"3schoolroom2_jpg",
+        "content":["王爷会有麻烦嘛？"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"229",
+	 	"name":"赵祁裕",
+        "scene":"3schoolroom2_jpg",
+        "content":["是啊，大麻烦，江南这边柳氏团结其他氏族不合作，闹大了反而是我强取豪夺的名声远扬了！"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"230",
+	 	"name":"刘文清",
+        "scene":"3schoolroom2_jpg",
+        "content":["我有什么可以帮到你的吗？","那你打算如何处理？","那你小心啊！"],
+        "figure":"h1_png",
+        "select":["我有什么可以帮到你的吗？","那你打算如何处理？","那你小心啊！"],
+        "add":["5-10","2-5","5-5"],
+        "next":["231","235","236"]
+},
+{
+		"pre_conditions":"231",
+	 	"name":"赵祁裕",
+        "scene":"3schoolroom2_jpg",
+        "content":["小都伯，你保护好自己就是对我最大的帮助，放心，一切我自有安排！"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"232",
+	 	"name":"刘文清",
+        "scene":"3schoolroom2_jpg",
+        "content":["每次都这样，我很无用吗？","我当然放心，王爷那是无所不能！"],
+        "figure":"h1_png",
+        "select":["每次都这样，我很无用吗","我当然放心，王爷那是无所不能"],
+        "add":["5-10","2-5","5-5"],
+        "next":["233","234"]
+},
+{
+		"pre_conditions":"233",
+	 	"name":"赵祁裕",
+        "scene":"3schoolroom2_jpg",
+        "content":["我的意思是，你很重要！"],
+        "figure":"si_png",
+        "select":[],
+        "next":["237"]
+},
+{
+		"pre_conditions":"234",
+	 	"name":"赵祁裕",
+        "scene":"3schoolroom2_jpg",
+        "content":["你这句话，我很受用！"],
+        "figure":"si_png",
+        "select":[],
+        "next":["237"]
+},
+{
+		"pre_conditions":"235",
+	 	"name":"赵祁裕",
+        "scene":"3schoolroom2_jpg",
+        "content":["老七纵然有氏族的支持，但是父皇明睿，一切都看在眼里，这氏族的势力再大，天下终究是父皇做主！"],
+        "figure":"si_png",
+        "select":[],
+        "next":["237"]
+},
+{
+		"pre_conditions":"236",
+	 	"name":"赵祁裕",
+        "scene":"3schoolroom2_jpg",
+        "content":["你这是担心我吗？放心，本王不会有事的！"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"237",
+	 	"name":"刘文清",
+        "scene":"3schoolroom2_jpg",
+        "content":["你会无事便好！"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"238",
+	 	"name":"赵祁裕",
+        "scene":"3schoolroom2_jpg",
+        "content":["可是我更希望你们都没事，这样随意剥夺人性命的时代该结束了！"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"239",
+	 	"name":"刘文清",
+        "scene":"3schoolroom2_jpg",
+        "content":["(惊愕得抬起头，看着四王，内心触动)倘若又有一天，王爷继承皇位，恐怕就不会这么想了！"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"240",
+	 	"name":"赵祁裕",
+        "scene":"3schoolroom2_jpg",
+        "content":["母亲因宫斗牵连，早产生下我，就去世了，我幼时在武侯府长到六岁，三年后武侯受诋毁被灭了全族！（眼眶有些湿润，吸了一口气继续说道）弘毅也死了，躲过了敌人的明枪，却躲不掉自己人的暗箭！"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"241",
+	 	"name":"刘文清",
+        "scene":"3schoolroom2_jpg",
+        "content":["王爷现在做不了什么，以后就能改变数千年来的定律嘛！"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"242",
+	 	"name":"赵祁裕",
+        "scene":"3schoolroom2_jpg",
+        "content":["出府的时候，武侯让我记住韬光养晦和事在人为，九岁我就在军营了，武侯出事的时候我连夜骑马赶回，摔下了马，还是没赶上，私自出军营被杖责三十,父皇六年没见过我！"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"243",
+	 	"name":"赵祁裕",
+        "scene":"3schoolroom2_jpg",
+        "content":["我一直在奋力争取机会，如果得到，我也会拼尽全力做我能做的，倘若这次得到机会，你愿意帮助我吗？"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"244",
+	 	"name":"刘文清",
+        "scene":"3schoolroom2_jpg",
+        "content":["恐位卑势弱，但尽力而为！","恐位卑势弱，帮不了王爷！","王爷，这是请求嘛？我答应了"],
+        "figure":"h1_png",
+        "select":["愿意","不愿意","这是请求我嘛"],
+        "add":["5-2","2-5","5-5"],
+        "next":["245","246","247"]
+},
+{
+		"pre_conditions":"245",
+	 	"name":"赵祁裕",
+        "scene":"3schoolroom2_jpg",
+        "content":["（哈哈一笑）不怕，三个臭皮匠顶个诸葛亮！"],
+        "figure":"si_png",
+        "select":[],
+        "next":["248"]
+},
+{
+		"pre_conditions":"246",
+	 	"name":"赵祁裕",
+        "scene":"3schoolroom2_jpg",
+        "content":["那大家今后各自保重！"],
+        "figure":"si_png",
+        "select":[],
+        "next":["248"]
+},
+{
+		"pre_conditions":"247",
+	 	"name":"赵祁裕",
+        "scene":"3schoolroom2_jpg",
+        "content":["本王这是命令！"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"248",
+	 	"name":"王府内侍",
+        "scene":"3schoolroom2_jpg",
+        "content":["王爷，内史到了！"],
+        "figure":"guanli01_png",
+        "select":[]
+},
+{
+		"pre_conditions":"249",
+	 	"name":"刘文清",
+        "scene":"3schoolroom2_jpg",
+        "content":["王爷，卑职先行告辞了！"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"250",
+		"aside":"在路上，看到柳骁然一个人在酒馆",
+	 	"name":"柳骁然",
+        "scene":"3jiu_jpg",
+        "content":["阿刘，你来了！"],
+        "figure":"liu_png",
+        "select":[]
+},
+{
+		"pre_conditions":"251",
+	 	"name":"刘文清",
+        "scene":"3jiu_jpg",
+        "content":["你怎么喝得这么醉，你不能再喝了！","阿柳，你最近怎么这样，到底发生什么事了？"],
+        "figure":"h1_png",
+        "select":["你不能再喝了","发生什么事了"],
+        "add":["6-5","3-5"]
+},
+{
+		"pre_conditions":"252",
+	 	"name":"柳骁然",
+        "scene":"3jiu_jpg",
+        "content":["你和四王爷走得那么近，你不知道发生什么事情了？"],
+        "figure":"liu_png",
+        "select":[]
+},
+{
+		"pre_conditions":"253",
+	 	"name":"刘文清",
+        "scene":"3jiu_jpg",
+        "content":["我只是和他以前在一个军营，叙叙旧！","上下属关系，正常走动而已！"],
+        "figure":"h1_png",
+        "select":["我只是和他以前在一个军营，叙叙旧","上下属关系，正常走动而已"],
+        "add":["4-5","2-5"]
+},
+{
+		"pre_conditions":"254",
+	 	"name":"柳骁然",
+        "scene":"3jiu_jpg",
+        "content":["那我们什么关系？"],
+        "figure":"liu_png",
+        "select":[]
+},
+{
+		"pre_conditions":"255",
+	 	"name":"刘文清",
+        "scene":"3jiu_jpg",
+        "content":["普通同僚关系！","普通同僚关系!","普通同僚关系!"],
+        "figure":"h1_png",
+        "select":["普通同僚关系","普通同僚关系","普通同僚关系"],
+        "add":["1-5","1-5","1-5"]
+},
+{
+		"pre_conditions":"256",
+	 	"name":"柳骁然",
+        "scene":"3jiu_jpg",
+        "content":["普通同僚关系，普通同僚，那你就不要管我了，你走吧！"],
+        "figure":"liu_png",
+        "select":[]
+},
+{
+		"pre_conditions":"257",
+	 	"name":"刘文清",
+        "scene":"3jiu_jpg",
+        "content":["喝点醒酒汤吧，普通同僚还等着你回去处理事务呢！"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"258",
+		"aside":"刘文清和醒酒后的柳骁然回到府衙，看到有民众聚集在门口",
+	 	"name":"民众领头",
+        "scene":"3officials_1_jpg",
+        "content":["还我们粮食！"],
+        "figure":"farmer_png",
+        "select":[]
+},
+{
+		"pre_conditions":"259",
+	 	"name":"刘文清",
+        "scene":"3officials_1_jpg",
+        "content":["发生什么事了？"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"260",
+	 	"name":"民众领头",
+        "scene":"3officials_1_jpg",
+        "content":["我们只有一点口粮，不能交征粮，官府趁我们不在家，把所有能吃的都抢走了，还打伤我们老人小孩！"],
+        "figure":"farmer_png",
+        "select":[]
+},
+{
+		"pre_conditions":"261",
+	 	"name":"府衙官吏",
+        "scene":"3officials_1_jpg",
+        "content":["奉四王口令征粮，抗令不交，百般阻碍，你们再不走，我可要抓人了！"],
+        "figure":"guanli2_png",
+        "select":[]
+},
+{
+		"pre_conditions":"262",
+	 	"name":"柳骁然",
+        "scene":"3officials_1_jpg",
+        "content":["赵大人，你现在就可以抓人了！"],
+        "figure":"liu_png",
+        "select":[]
+},
+{
+		"pre_conditions":"263",
+	 	"name":"刘文清",
+        "scene":"3officials_1_jpg",
+        "content":["阿柳，不能这样随便抓人！"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"264",
+	 	"name":"柳骁然",
+        "scene":"3officials_1_jpg",
+        "content":["阿刘，你不知道，他们已经触犯律法了，正好四王要求押送粮草的人力还不够，按律可以服劳役抵过！"],
+        "figure":"liu_png",
+        "select":[]
+},
+{
+		"pre_conditions":"265",
+	 	"name":"刘文清",
+        "scene":"3officials_1_jpg",
+        "content":["阿柳，你就不能放过他们吗？他们家没有粮食又丢了劳动力，过不了冬的！","四王恐怕没有这么要求吧！","算了，不参与"],
+        "figure":"h1_png",
+        "select":["阿柳，你就不能放过他们吗？","四王恐怕没有这么要求吧！","沉默不语"],
+        "add":["6-5","5-5","2-5"]
+},
+{
+		"pre_conditions":"266",
+	 	"name":"柳骁然",
+        "scene":"3officials_1_jpg",
+        "content":["这就是命令，我必须按命令行事，都抓起来！"],
+        "figure":"liu_png",
+        "select":[]
+},
+{
+		"pre_conditions":"267",
+	 	"name":"府衙官吏",
+        "scene":"3officials_1_jpg",
+        "content":["是，司马大人！"],
+        "figure":"guanli2_png",
+        "select":[]
+},
+{
+		"pre_conditions":"268",
+	 	"name":"民众领头",
+        "scene":"3officials_1_jpg",
+        "content":["（挣扎着，看着刘文清，哀嚎着）这位大人，救救我们啊，家里都是老人小孩，不能没有我们啊！"],
+        "figure":"farmer_png",
+        "select":[]
+},
+{
+		"pre_conditions":"269",
+	 	"name":"刘文清",
+        "scene":"3officials_2_jpg",
+        "content":["阿柳，阿柳。。。"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"270",
+	 	"name":"柳骁然",
+        "scene":"3officials_2_jpg",
+        "content":["刘参军，有什么事情，等处理这一摞文书再说！"],
+        "figure":"liu_png",
+        "select":[]
+},
+{
+		"pre_conditions":"271",
+	 	"name":"刘文清",
+        "scene":"3officials_2_jpg",
+        "content":["好，柳司马！","好吧，阿柳！"],
+        "figure":"h1_png",
+        "select":["好，柳司马","好吧，阿柳"],
+        "add":["1-10","6-10"],
+        "next":["272","273"]
+},
+{
+		"pre_conditions":"272",
+	 	"name":"柳骁然",
+        "scene":"3officials_2_jpg",
+        "content":["(握笔的手颤抖了一下，一滴墨滴在文书上)谢谢，刘参军配合！"],
+        "figure":"liu_png",
+        "select":[],
+        "next":["286"]
+},
+{
+		"pre_conditions":"273",
+		"aside":"到达傍晚的时候，柳骁然走过去，敲了敲刘文清的桌子",
+	 	"name":"柳骁然",
+        "scene":"3officials_2_jpg",
+        "content":["阿刘，走吧，我请你吃馄饨！"],
+        "figure":"liu_png",
+        "select":[]
+},
+{
+		"pre_conditions":"274",
+	 	"name":"刘文清",
+        "scene":"3officials_2_jpg",
+        "content":["不叫我刘参军了,不生气了！"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"275",
+	 	"name":"柳骁然",
+        "scene":"3officials_2_jpg",
+        "content":["哼，我才没有生过气！"],
+        "figure":"liu_png",
+        "select":[]
+},
+{
+		"pre_conditions":"276",
+	 	"name":"刘文清",
+        "scene":"3block_jpg",
+        "content":["阿柳，征粮的事情你一直这样处理的吗？"],
+        "figure":"h1_png",
+        "select":[],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"277",
+	 	"name":"柳骁然",
+        "scene":"3block_jpg",
+        "content":["阿刘，如果不停止征粮，我只能这样处理！"],
+        "figure":"liu_png",
+        "select":[],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"278",
+	 	"name":"刘文清",
+        "scene":"3block_jpg",
+        "content":["大族收上掌握大部分粮草，你可以向他们征粮！"],
+        "figure":"h1_png",
+        "select":[],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"279",
+	 	"name":"柳骁然",
+        "scene":"3block_jpg",
+        "content":["我不是没试过，妹妹在七王爷府里，七王爷府来了一封信说她过得不太好！"],
+        "figure":"liu_png",
+        "select":[],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"280",
+	 	"name":"刘文清",
+        "scene":"3block_jpg",
+        "content":["七王威胁你！"],
+        "figure":"h1_png",
+        "select":[],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"281",
+	 	"name":"柳骁然",
+        "scene":"3block_jpg",
+        "content":["就算没有七王，还有我们氏族！"],
+        "figure":"liu_png",
+        "select":[],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"282",
+	 	"name":"刘文清",
+        "scene":"3block_jpg",
+        "content":["七王暴虐，大族自私自利，阿柳你帮他们，也不会有好结果的！"],
+        "figure":"h1_png",
+        "select":[],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"283",
+	 	"name":"柳骁然",
+        "scene":"3block_jpg",
+        "content":["（突然停下来，与阿刘隔出一段距离）阿刘，我是大族出生，我妹妹也是七王侧妃，我就是他们之中的一员，也是，我们本就不是同路人！"],
+        "figure":"liu_png",
+        "select":[],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"284",
+	 	"name":"刘文清",
+        "scene":"3block_jpg",
+        "content":["阿柳，你志向和他们不一样，你可以有其他选择的！"],
+        "figure":"h1_png",
+        "select":[],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"285",
+	 	"name":"柳骁然",
+        "scene":"3block_jpg",
+        "content":["（笑着摇摇头）你是说投靠四王嘛？阿刘，四王并不是看上去的那么坦荡，能爬到那么高层的人身后有你无法想象的肮胀！算了，我们不说这些，能有现在就过现在，吃馄饨！"],
+        "figure":"liu_png",
+        "select":[],
+        "texture":"fengye"
+},
+{
+		"pre_conditions":"286",
+		"aside":"结束后，刘文清绕了一个远路去了药馆",
+	 	"name":"刘文清",
+        "scene":"3hospitalin_jpg",
+        "content":["青虹，你在这里还好嘛？"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"287",
+	 	"name":"莫青虹",
+        "scene":"3hospitalin_jpg",
+        "content":["我还好，你看起来情绪很低落！"],
+        "figure":"qing3_png",
+        "select":[]
+},
+{
+		"pre_conditions":"288",
+	 	"name":"刘文清",
+        "scene":"3hospitalin_jpg",
+        "content":["青虹，真的好累，我们回去吧，回小镇去吧！","没事，就是来看看你，就是想看看你！","每个人的心思都看不懂，每个人都认为自己做的事情才是对的，人事真的好复杂啊！"],
+        "figure":"h1_png",
+        "select":["我累了，想离开","没事，就是来看看你","人事真的好复杂啊"],
+        "add":["4-10","3-5","2-5"],
+        "next":["-2","289","290"]
+},
+{
+		"pre_conditions":"289",
+	 	"name":"莫青虹",
+        "scene":"3hospitalin_jpg",
+        "content":["我一直都是你的亲人，你什么时候需要陪伴，我都会在你身边！"],
+        "figure":"qing3_png",
+        "select":[],
+        "next":["291"]
+},
+{
+		"pre_conditions":"290",
+	 	"name":"莫青虹",
+        "scene":"3hospitalin_jpg",
+        "content":["是啊，每个人立场不同，有太多你不知道的过往，无法体会。尽自己最大的心意，做好自己的事情，剩下的是他人的选择，我们不需要遗憾的！"],
+        "figure":"qing3_png",
+        "select":[]
+},
+{
+		"pre_conditions":"291",
+	 	"name":"刘文清",
+        "scene":"3hospitalin_jpg",
+        "content":["嗯，谢谢你！"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"292",
+	 	"name":"莫青虹",
+        "scene":"3hospitalin_jpg",
+        "content":["天凉了，我给你开副调养的药吧，你...你注意保护自己，这条路太难走了！其实，我们只是普通人，成功只是极少数人的事情，文清你..."],
+        "figure":"qing3_png",
+        "select":[]
+},
+{
+		"pre_conditions":"293",
+	 	"name":"刘文清",
+        "scene":"3hospitalin_jpg",
+        "content":["青虹，我想放弃了，我们回去吧，回小镇去吧！","青虹，我知道了，会小心的！"],
+        "figure":"h1_png",
+        "select":["我想离开了","嗯，我会小心的"],
+        "add":["4-10","2-5"],
+        "next":["-2","295"]
+},
+{
+		"pre_conditions":"294",
+	 	"name":"莫青虹",
+        "scene":"3hospitalin_jpg",
+        "content":["文清，我也很想和你回去，可是现在你不是一个普通的士兵，现在还不能走，别冲动！"],
+        "figure":"qing3_png",
+        "select":[]
+},
+{
+		"pre_conditions":"295",
+		"aside":"半月后，赵祁裕突然造访刘府",
+	 	"name":"刘文清",
+        "scene":"3schoolroom1_jpg",
+        "content":["四王爷，你怎么来了？"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"296",
+	 	"name":"赵祁裕",
+        "scene":"3schoolroom1_jpg",
+        "content":["怎么，你可以和柳骁然出去吃吃喝喝，我就不能来看看你啊！"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"297",
+	 	"name":"刘文清",
+        "scene":"3schoolroom1_jpg",
+        "content":["可以可以，你做什么都可以！","王爷，你这唱得又是哪一出啊！"],
+        "figure":"h1_png",
+        "select":["可以可以，你做什么都可以","王爷，你这唱得又是哪一出啊"],
+        "next":["298","300"],
+        "add":["5-10","2-5"]
+},
+{
+		"pre_conditions":"298",
+	 	"name":"赵祁裕",
+        "scene":"3schoolroom1_jpg",
+        "content":["你说的，那等我回来，我要你答应我一件事情！"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"299",
+	 	"name":"刘文清",
+        "scene":"3schoolroom1_jpg",
+        "content":["你要离开江南，去哪里？"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"300",
+	 	"name":"赵祁裕",
+        "scene":"3schoolroom1_jpg",
+        "content":["父皇恐怕不行了，我要回京!"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"301",
+	 	"name":"刘文清",
+        "scene":"3schoolroom1_jpg",
+        "content":["一路小心！"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"302",
+	 	"name":"赵祁裕",
+        "scene":"3schoolroom1_jpg",
+        "content":["希望再见时，是个好结果!"],
+        "figure":"si_png",
+        "select":[]
+},
+{
+		"pre_conditions":"303",
+		"aside":"不久后，京城传出消息，皇帝驾崩，四王登基，随后柳族查抄，柳骁然流放千里之外",
+	 	"name":"柳骁然",
+        "scene":"3jiu_jpg",
+        "content":["阿刘，我知道你的身份，曾经很努力很努力接近你，可是我的真心抵不过时间，如果我能早点遇见你就好了！"],
+        "figure":"liu2_png",
+        "select":[]
+},
+{
+		"pre_conditions":"304",
+	 	"name":"刘文清",
+        "scene":"3jiu_jpg",
+        "content":["阿柳，不是这样的，我，我，哎！"],
+        "figure":"h1_png",
+        "select":[]
+},
+{
+		"pre_conditions":"305",
+	 	"name":"柳骁然",
+        "scene":"3jiu_jpg",
+        "content":["你做过的事情，我都知道，可是不能知道，因为你与妹妹之间，我做不出选择，所以我什么都不知道！阿刘，别太容易相信别人，永别了！"],
+        "figure":"liu2_png",
+        "select":[]
+},
+{
+		"pre_conditions":"306",
+	 	"name":"刘文清",
+        "scene":"3jiu_jpg",
+        "content":["不会的，就算你在天涯海角，我也会去找你的！","不会的，你会等到赦免的!"],
+        "figure":"h1_png",
+        "select":["不会的，就算你在天涯海角，我也会去找你的","不会的，你会等到赦免的"],
+        "add":["6-10","3-5"],
+        "next":["-3","-4"]
+}
+]

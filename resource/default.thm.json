@@ -1,0 +1,32 @@
+{
+  "skins": {
+    "SceneBlock": "resource/eui_skins/SceneBlock.exml",
+    "Dialog": "resource/eui_skins/Dialog.exml",
+    "Aside": "resource/eui_skins/Aside.exml",
+    "GameOver": "resource/eui_skins/GameOver.exml",
+    "File": "resource/eui_skins/File.exml",
+    "GameFile": "resource/eui_skins/GameFile.exml",
+    "qq": "resource/eui_skins/qq.exml",
+    "Cartoon": "resource/eui_skins/Cartoon.exml",
+    "Menu": "resource/eui_skins/Menu.exml",
+    "annex": "resource/eui_skins/annex.exml",
+    "Loading": "resource/eui_skins/Loading.exml",
+    "Letters": "resource/eui_skins/Letters.exml"
+  },
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "resource/eui_skins/Aside.exml",
+    "resource/eui_skins/Attribute.exml",
+    "resource/eui_skins/Cartoon.exml",
+    "resource/eui_skins/Dialog.exml",
+    "resource/eui_skins/GameFile.exml",
+    "resource/eui_skins/GameOver.exml",
+    "resource/eui_skins/GameSetting.exml",
+    "resource/eui_skins/Letters.exml",
+    "resource/eui_skins/Menu.exml",
+    "resource/eui_skins/SaveFile.exml",
+    "resource/eui_skins/SceneBeginSkin.exml",
+    "resource/eui_skins/SceneBlock.exml",
+    "resource/eui_skins/annex.exml"
+  ]
+}

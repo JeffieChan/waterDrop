@@ -1,0 +1,560 @@
+﻿[
+{
+		"pre_conditions":"0",
+		"aside":"某年某月某日，在某个小镇",
+	 	"name":"刘文清",
+        "scene":"1block_jpg",
+        "content":["请问这是什么地方？"],
+        "skins":"SceneBlock",
+        "figure":"heroine_png",
+        "post_conditions":"",
+        "select":[]
+},
+{
+		"pre_conditions":"1",
+		"name":"陌生大叔",
+		"scene":"1block_jpg",
+        "content":["这里是边镇，小伙子，怎么来这里的，没事吧？"],
+        "skins":"SceneBlock",
+        "figure":"mouncle_png",
+        "post_conditions":"",
+        "select":[]
+},
+{ 	    
+		"pre_conditions":"2",
+		"name":"刘文清",
+		"scene":"1block_jpg",
+        "content":["我也不知道，一醒来就在这里了，也不记得怎么来的。","来此地探亲，路遇强盗，我和家人走散了。"],
+        "skins":"SceneBlock",
+        "figure":"heroine_png",
+        "post_conditions":"",
+        "select":["如实诉说","随便编造一个故事"],
+        "add":["1-1","1-0"]
+},
+{
+		"pre_conditions":"3",
+		"name":"莫大叔",
+		"scene":"1block_jpg",
+        "content":["我姓莫，是这里的农户，这样吧，你先在我家休息休息，等你家人过来！"],
+        "skins":"SceneBlock",
+        "figure":"mouncle_png",
+        "post_conditions":"",
+        "select":[]
+},
+{ 	    
+		"pre_conditions":"4",
+		"name":"刘文清",
+        "content":["谢谢大叔的好意，我还是在这等人吧!","谢谢大叔，希望不会太麻烦到你!"],
+        "scene":"1block_jpg",
+        "skins":"SceneBlock",
+        "figure":"heroine_png",
+        "post_conditions":"",
+        "next":["-1","5"],
+        "select":["这个人有问题，拒绝","大叔应该是个好人，同意"],
+        "add":["0-0","4-1"]
+},
+{ 	    
+		"pre_conditions":"5",
+		"name":"莫青虹",
+		"aside":"跟随莫大叔来到了他家，看到一个正在洗晒衣物的女孩子",
+        "content":["爹，你回来了，这位公子是？"],
+        "skins":"SceneBlock",
+        "figure":"qing_1_png",
+        "scene":"1town_3_jpg",
+        "post_conditions":"", 
+        "select":[],
+        "add":[]
+},
+{	    
+		"pre_conditions":"6",
+		"name":"刘文清",
+        "content":["不好意思，可能要打扰你了，我姓刘，名文清。"],
+        "skins":"SceneBlock",
+        "figure":"heroine_png",
+        "scene":"1town_3_jpg",
+        "post_conditions":"", 
+        "select":[],
+        "add":[]
+},
+{       		
+	    "pre_conditions":"7",
+		"name":"刘文清",
+		"aside":"在这里住了几日，你感觉莫家父女还不错，但是他们还是不知道你是女孩子，你要不要告诉他们？",
+        "content":["莫大叔，莫姑娘，谢谢你们！","莫大叔，莫姑娘，其实我是女扮男装！"],
+        "skins":"SceneBlock",
+        "figure":"heroine_png",
+        "scene":"1house_2_jpg",
+        "post_conditions":"", 
+        "next":["8","10"],
+        "select":["不告知，男人身份比较安全","告知，不应该继续骗他们"],
+        "add":["0-0","4-5"]
+},
+{       		
+	    "pre_conditions":"8",
+		"name":"莫青虹",
+        "content":["有些事情，你真的不打算和我们说了，比如...男装..."],
+        "skins":"SceneBlock",
+        "figure":"qing_1_png",
+        "scene":"1house_2_jpg",
+         "post_conditions":"",
+         "select":[]
+},
+{       		
+	    "pre_conditions":"9",
+		"name":"刘文清",
+        "content":["你们都知道了！！！"],
+        "skins":"SceneBlock",
+        "figure":"heroine_png",
+        "scene":"1house_2_jpg",
+        "post_conditions":"",
+        "select":[]
+},
+{       		
+	    "pre_conditions":"10",
+		"name":"莫青虹",
+        "content":["其实我们早发现不对劲的，我以前也老这样子玩的,只不过你个子高眉目英气更像一点，但是你没有贴喉结，下次我可以教你。"],
+        "skins":"SceneBlock",
+        "figure":"qing_1_png",
+        "scene":"1house_2_jpg",
+        "post_conditions":"",
+        "select":[]
+
+},
+{       		
+	    "pre_conditions":"11",
+		"name":"刘文清",
+        "content":["对不起，我不是故意要骗你们的，我只是不知道在这里举目无亲怎么生存下去，我只是觉得扮男装可能简单点。"],
+        "skins":"SceneBlock",
+        "figure":"heroine_png",
+        "scene":"1house_2_jpg",
+        "select":[]
+},
+{       		
+	    "pre_conditions":"12",
+		"name":"莫大叔",
+        "content":["文清，没事的，你可以选择你觉得安全的任何方式，我们会陪你一直到找到你的家人！"],
+        "skins":"SceneBlock",
+        "figure":"mouncle_png",
+        "scene":"1house_2_jpg",
+        "select":[]
+},
+{       		
+	    "pre_conditions":"13",
+		"name":"刘文清",
+        "content":["真的，谢谢你们！"],
+        "skins":"SceneBlock",
+        "figure":"heroine_png",
+        "scene":"1house_2_jpg",
+        "select":[]
+},
+{
+	   	"pre_conditions":"14",
+		"name":"刘文清",
+		"aside":"在他们家呆了这么久，和他们商量一下，应该找些事情忙吧！",
+        "content":["莫大叔，你厨艺这么好，要不开家店吧！","莫大叔，我以前看过一些医书，以后我和你一起上山去采药吧!","青虹，我看你平时那么忙，我帮你做些事情吧!"],
+        "skins":"SceneBlock",
+        "figure":"heroine_png",
+        "scene":"1house_1_jpg",
+        "post_conditions":"", 
+        "next":["15","16","17"],
+        "select":["帮莫大叔开店","和莫大叔去采药","帮青虹做一些琐事"],
+        "add":["2-5","1-10","4-5"]
+},
+{
+		"pre_conditions":"15",
+		"name":"莫大叔",
+        "content":["文清，你来这里不久可能不太清楚，这几年这块边境不安定，饭店是开不起的！你要是觉得无聊，去私塾借借书看吧！"],
+        "figure":"mouncle_png",
+        "scene":"1house_1_jpg",
+        "next":["39"],
+        "select":[]
+ },
+ {
+ 		"pre_conditions":"16",
+		"name":"莫大叔",
+        "content":["不过要爬山，可能辛苦点，你要适应些。"],
+        "figure":"mouncle_png",
+        "scene":"1house_1_jpg",
+        "next":["39"],
+        "select":[]
+ },
+{
+	    "pre_conditions":"17",
+	    "name":"莫青虹",
+        "content":["不用了，文清，你乖乖呆在旁边看就好了"],
+        "figure":"qing_1_png",
+        "scene":"1house_1_jpg",
+        "select":[]
+},
+{
+	    "pre_conditions":"18",
+	    "name":"刘文清",
+        "content":["青虹，你这是赤裸裸得瞧不起我！","青虹，我可以的，可以帮你的！"],
+        "figure":"heroine_png",
+        "scene":"1house_1_jpg",
+        "select":["有点生气","继续劝说"],
+        "add":["2-5","2-6"]
+},
+{
+	    "pre_conditions":"19",
+	    "name":"莫青虹",
+        "content":["好吧，那你帮我照看那群小孩子吧！"],
+        "figure":"qing_1_png",
+        "scene":"1house_1_jpg",
+        "select":[]
+},
+{
+	    "pre_conditions":"20",
+		"name":"刘文清",
+        "content":["好的，我会努力的！"],
+        "figure":"heroine_png",
+        "scene":"1house_1_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"21",
+		"name":"刘文清",
+		"aside":"你就是在这里照看那些小孩，他们大多父亲战死或者在守边境，家里的大人都是老弱病残，还要忙家里的活，所以常常托青虹照看下",
+        "content":["你们小心点，不要摔伤了！"],
+        "figure":"heroine_png",
+        "scene":"1town_2_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"22",
+		"name":"小孩子",
+        "content":["书呆子，你还真以为你能考上状元嘛！"],
+        "figure":"child_png",
+        "scene":"1town_2_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"23",
+		"name":"阿乔",
+        "content":["我能，别以为你做不到的事情，别人就不可以!"],
+        "figure":"aqiao_png",
+        "scene":"1town_2_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"24",
+		"name":"刘文清",
+		"aside":"他们那群小孩看你走过去，突然一哄而散，你看一个小孩子坐在地上，你把他扶起，发现他手臂跌伤了",
+        "content":["怎么了，我带你去处理一下吧！"],
+        "figure":"heroine_png",
+        "scene":"1town_2_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"25",
+		"name":"阿乔",
+        "content":["嗯，谢谢！"],
+        "figure":"aqiao_png",
+        "scene":"1town_2_jpg",
+        "select":[]
+},
+{
+	    "pre_conditions":"26",
+	    "name":"莫青虹",
+        "content":["阿乔，你怎么了，又是那群小子嘛？哎，那群小兔崽子，真是不听话！"],
+        "figure":"qing_1_png",
+        "scene":"1town_1_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"27",
+		"name":"阿乔",
+        "content":["莫姐姐，没事的！"],
+        "figure":"aqiao_png",
+        "scene":"1town_1_jpg",
+        "select":[]
+},
+{
+	    "pre_conditions":"28",
+		"name":"刘文清",
+		"aside":"你不知道事情的缘由，这个你想问谁？",
+        "content":["青虹，这是，怎么回事？","阿乔，是他们欺负你了吗？"],
+        "figure":"heroine_png",
+        "scene":"1town_1_jpg",
+        "post_conditions":"", 
+        "next":["29","30"],
+        "select":["青虹","阿乔"],
+        "add":["1-1","0-0"]
+},
+{
+	    "pre_conditions":"29",
+	    "name":"莫青虹",
+        "content":["其实，很简单，阿乔想读书，那群小孩子爱玩，觉得阿乔离群不和他们是一队的！"],
+        "figure":"qing_1_png",
+        "scene":"1town_1_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"30",
+		"name":"阿乔",
+        "content":["刘哥哥，只是他们笑我要考状元，拉扯几下，我不小心摔倒了而已"],
+        "figure":"aqiao_png",
+        "scene":"1town_1_jpg",
+        "select":[]
+},
+{
+	    "pre_conditions":"31",
+		"name":"刘文清",
+        "content":["孙大圣刚开始想成为盖世大英雄的时候，其他的妖怪都嘲笑他只是个猴子精还妄想成为盖世英雄，但孙大圣后面还是大圣，其他不看好的嘲笑并不能决定他是不是盖世英雄！"],
+        "figure":"heroine_png",
+        "scene":"1town_1_jpg",
+        "post_conditions":"", 
+        "select":[]
+},
+{
+        "pre_conditions":"32",
+		"name":"阿乔",
+        "content":["刘哥哥，你想成为什么样的人呢？"],
+        "figure":"aqiao_png",
+        "scene":"1town_1_jpg",
+        "select":[]
+},
+{
+        "pre_conditions":"33",
+		"name":"刘文清",
+        "content":["我也想成为盖世大英雄！"],
+        "figure":"heroine_png",
+        "scene":"1town_1_jpg",
+        "post_conditions":"", 
+        "select":[]
+},
+{
+       "pre_conditions":"34",
+		"name":"阿乔",
+        "content":["刘哥哥的梦想比我还难额，刘哥哥加油！"],
+        "figure":"aqiao_png",
+        "scene":"1town_1_jpg",
+        "select":[]
+},
+{
+        "pre_conditions":"35",
+		"name":"刘文清",
+        "content":["小阿乔，你也加油！"],
+        "figure":"heroine_png",
+        "scene":"1town_1_jpg",
+        "post_conditions":"", 
+        "select":[]
+},
+{
+	    "pre_conditions":"36",
+	    "name":"莫青虹",
+        "content":["文清，你..."],
+        "figure":"qing_1_png",
+        "scene":"1town_1_jpg",
+        "select":[]
+},
+{
+        "pre_conditions":"37",
+		"name":"刘文清",
+        "content":["青虹，你也要嘲笑我嘛，不为我加油嘛？"],
+        "figure":"heroine_png",
+        "scene":"1town_1_jpg",
+        "post_conditions":"", 
+        "select":[]
+},
+{
+	    "pre_conditions":"38",
+	    "name":"莫青虹",
+        "content":["没有，没有嘲笑！"],
+        "figure":"qing_1_png",
+        "scene":"1town_1_jpg",
+        "next":["43"],
+        "select":[]
+},
+{
+        "pre_conditions":"39",
+        "aside":"有一天，莫大叔上山采药回来",
+		"name":"莫大叔",
+        "content":["文清啊，如果你家人找到你了，你不要那么快回去，我麻烦你一件事情好不？"],
+        "figure":"mouncle_png",
+        "scene":"1town_1_jpg",
+        "select":[]    
+},
+{
+        "pre_conditions":"40",
+		"name":"刘文清",
+        "content":["莫大叔，其实我家人可能都遭遇不测了，所以可能会麻烦你们很久了，你有事情我一定会竭尽全力帮忙的！"],
+        "figure":"heroine_png",
+        "scene":"1town_1_jpg",
+        "select":[]
+},
+{
+        "pre_conditions":"41",
+		"name":"莫大叔",
+        "content":["我身体越来越不好了，现在采药都很累了，以后要麻烦你多多照顾青虹！"],
+        "figure":"mouncle_png",
+        "scene":"1town_1_jpg",
+        "select":[]    
+},
+{
+        "pre_conditions":"42",
+		"name":"刘文清",
+        "content":["能力所及，万死不辞！！！"],
+        "figure":"heroine_png",
+        "scene":"1town_1_jpg",
+        "select":[] 
+},
+{
+	    "pre_conditions":"43",
+	    "aside":"在放榜处，看到征兵令，写着“前线急需兵员，现每家征兵一位”",
+	    "name":"莫青虹",
+        "content":["怎么又要征兵，这不是爹也要上前线嘛？"],
+        "figure":"qing_1_png",
+        "scene":"notice_1_jpg",
+        "select":[]
+},
+{
+        "pre_conditions":"44",
+		"name":"刘文清",
+        "content":["不会的，大叔年纪那么大了，已经不适合上战场了。"],
+        "figure":"heroine_png",
+        "scene":"notice_1_jpg",
+        "select":[] 
+},
+{
+        "pre_conditions":"45",
+		"name":"老爷爷",
+        "content":["小伙子有所不知，孤家老妪都被逼应役，世道不仁啊！"],
+        "figure":"luren01_png",
+        "scene":"notice_1_jpg",
+        "select":[] 
+},
+{
+	    "pre_conditions":"46",
+	    "name":"莫青虹",
+        "content":["大爷，不是世道的问题，是那些夷人太可恶，老犯我边境！"],
+        "figure":"qing_1_png",
+        "scene":"notice_1_jpg",
+        "select":[]
+},
+{
+        "pre_conditions":"47",
+		"name":"刘文清",
+        "content":["是啊，夷人太可恶，不过保卫大好河山的事情应该交给我们这样的有志青年！","青虹，你不要自欺欺人了，明明就是这乱世不公！"],
+        "figure":"heroine_png",
+        "scene":"notice_1_jpg",
+        "select":["同意青虹的观点","同意老爷爷的说法"],
+        "next":["49","48"],
+        "add":["2-5","3-1"]
+},
+{
+	    "pre_conditions":"48",
+	    "name":"莫青虹",
+        "content":["文清,不许胡说，别站在这里了，快回去吧！"],
+        "figure":"qing_1_png",
+        "scene":"notice_1_jpg",
+        "next":["52"],
+        "select":[]
+},
+{
+	    "pre_conditions":"49",
+	    "name":"莫青虹",
+        "content":["你们？文清，你指的是自己嘛？"],
+        "figure":"qing_1_png",
+        "scene":"notice_1_jpg",
+        "select":[]
+},
+{
+        "pre_conditions":"50",
+		"name":"刘文清",
+        "content":["当然了，保卫家国人人有责，有能力的当然要奋勇当前！"],
+        "figure":"heroine_png",
+        "scene":"notice_1_jpg",
+        "select":[] 
+},
+{
+	    "pre_conditions":"51",
+		"name":"老爷爷",
+        "content":["要是所有人都像小伙子你一样想，这世上就好了！"],
+        "figure":"luren01_png",
+        "scene":"notice_1_jpg",
+        "select":[] 
+},
+{
+	  	"pre_conditions":"52",
+		"name":"刘文清",
+		"aside":"莫家收留文清这么久，文清想也许该报答他们了。",
+        "content":["青虹，我觉得我可以一个人出去了！"],
+        "figure":"heroine_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+},
+{
+	    "pre_conditions":"53",
+	    "name":"莫青虹",
+        "content":["啊？文清，不行，你还是和爷爷两个人去上山采药，明天一早就去,晚上就住山上!"],
+        "figure":"qing_1_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"54",
+		"name":"刘文清",
+        "content":["你别说傻话了，就算去采药，只要你在这里，还是要回来的！"],
+        "figure":"heroine_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+},
+{
+	    "pre_conditions":"55",
+	    "name":"莫青虹",
+        "content":["可是，征兵令怎么办啊!"],
+        "figure":"qing_1_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"56",
+		"name":"刘文清",
+        "content":["现在先别想，先去烧饭吧，明天再说，船到桥头自然直！"],
+        "figure":"heroine_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+},
+{
+	    "pre_conditions":"57",
+	    "name":"莫青虹",
+        "content":["(好像想起什么)刘文清，你和我们只是普通雇佣关系，你只是帮干活的，你不要掺和我们家的事情!"],
+        "figure":"qing_1_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"58",
+		"name":"刘文清",
+        "content":["(失落得低着头)我知道了！"],
+        "figure":"heroine_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"59",
+		"name":"官吏",
+		"aside":"莫青虹进去不久，就有官吏过来了，刘文清走了过去。",
+        "content":["莫家谁服兵役，没有人我就要捉人了！"],
+        "figure":"guanli01_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"60",
+		"name":"刘文清",
+        "content":["我，我代表莫家应征！"],
+        "figure":"heroine_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+},
+{
+	  	"pre_conditions":"61",
+		"name":"官吏",
+        "content":["你(那官吏仔细打量了刘文清一眼)，好吧，就你了，划掉莫家吧！走，拉去玉阳！"],
+        "figure":"guanli01_png",
+        "scene":"1town_3_jpg",
+        "select":[]
+}
+]

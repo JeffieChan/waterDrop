@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CartoonSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="157cb333c7e" ></w:Config>
+	<e:Group id="skip" width="124" height="76" x="1160" y="32" scaleX="1" scaleY="1">
+		<e:Label text="跳过&gt;&gt;" x="-9" y="0" width="132" height="76" size="40" textColor="0x0b0001"/>
+	</e:Group>
+	<e:Group id="current" width="1024" height="8960" y="0" horizontalCenter="0">
+		<e:Image source="1_jpg" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="2_jpg" x="0" y="640" scaleX="1" scaleY="1"/>
+		<e:Image source="3_jpg" x="0" y="1280" scaleX="1" scaleY="1"/>
+		<e:Image source="4_jpg" x="0" y="1920" scaleX="1" scaleY="1"/>
+		<e:Image source="5_jpg" x="0" y="2560" scaleX="1" scaleY="1"/>
+		<e:Image source="6_jpg" x="0" y="3200" scaleX="1" scaleY="1"/>
+		<e:Image source="7_jpg" x="0" y="3840" scaleX="1" scaleY="1"/>
+		<e:Image source="8_jpg" x="0" y="4480" scaleX="1" scaleY="1"/>
+		<e:Image source="9_jpg" x="0" y="5120" scaleX="1" scaleY="1"/>
+		<e:Image source="10_jpg" x="0" y="5760" scaleX="1" scaleY="1"/>
+		<e:Image source="11_jpg" x="0" y="6400" scaleX="1" scaleY="1"/>
+		<e:Image source="12_jpg" x="0" y="7040" scaleX="1" scaleY="1"/>
+		<e:Image source="13_jpg" x="0" y="7680" scaleX="1" scaleY="1"/>
+		<e:Image source="14_jpg" x="0" y="8320" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DialogSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1575c6ca960" ></w:Config>
+	<e:Group id="dialogbox" height="266" width="1280" bottom="0">
+	<e:Image source="choose1_png" left="0"  y="0"/>
+	<e:Image source="dialog1_png" bottom="0" x="0"/>
+	<e:Label id="dialog" text="对话内容" bottom="26"  width="829" height="144" x="24"/>
+	<e:Label id="person" text="姓名"  left="19" top="3" height="57" verticalAlign="middle" textAlign="center" width="227"/>
+	</e:Group>
+	<e:Group id="select1" width="400" height="65" x="440" y="100" visible="false">
+	<e:Image source="choose1_png" scale9Grid="25,8,213,49" width="400"/>
+    <e:Label id="selection1" text="选择一" width="358" height="60" verticalAlign="middle" textAlign="center" size="20" x="21" y="2"/>
+	</e:Group>
+	<e:Group id="select2" width="400" height="65" x="440" y="200" visible="false">
+		<e:Image source="choose1_png" scale9Grid="25,8,213,49" width="400"/>
+		<e:Label id="selection2" text="选择一" width="358" height="60" verticalAlign="middle" textAlign="center" size="20" x="21" y="2"/>
+	</e:Group>
+	<e:Group id="select3" width="400" height="65" x="440" y="300" visible="false">
+		<e:Image source="choose1_png" scale9Grid="25,8,213,49" width="400"/>
+		<e:Label id="selection3" text="选择一" width="358" height="60" verticalAlign="middle" textAlign="center" size="20" x="21" y="2"/>
+	</e:Group>
+	
+
+</e:Skin>

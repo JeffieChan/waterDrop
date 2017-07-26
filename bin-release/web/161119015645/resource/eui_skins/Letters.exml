@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LettersSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15868ba37ee" ></w:Config>
+	<e:Image source="desk_jpg" x="0" y="-3.03" width="1280" height="720"/>
+	<e:Image id="menu" source="menu_png" x="1162.18" y="14.67" width="80" height="80"/>
+	<e:Image id="mo1" source="l1_jpg" x="715.64" y="166.76" rotation="345.87" visible="false"/>
+	<e:Image id="si1" source="l3_jpg" x="504.46" y="142.12" visible="false"/>
+	<e:Image id="liu1" source="l2_jpg" x="384.96" y="93.96" rotation="27.95" visible="false"/>
+	<e:Image id="data" x="408" y="0" source=""/>
+</e:Skin>

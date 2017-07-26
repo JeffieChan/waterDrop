@@ -1,0 +1,630 @@
+{
+	"groups": [
+		{
+			"keys": "menu_png,save_png,start_png,shop_png,setting_png,letter_png,attributes_png,1block_jpg,heroine_png,choose1_png,name1_png,dialog1_png,1house_2_jpg,1town_1_jpg,1town_2_jpg,1town_3_jpg,1house_1_jpg,qing_1_png,mouncle_png,file_jpg,read_png,aqiao_png,child_png,notice_1_jpg,luren01_png,guanli01_png,buttonclick_mp3,jiumeng_mp3,main_jpg,btn_sound_down_png,MoneyBG_png,YesBtn_jpg,YesBtn1_jpg,btn_disable_png,btn_music_png,btn_music_down_png,btn_sound_png,newParticle_json,newParticle_png,1_jpg,2_jpg,3_jpg,4_jpg,5_jpg,6_jpg,7_jpg,8_jpg,9_jpg,10_jpg,11_jpg,12_jpg,13_jpg,14_jpg,properties_json,end_png,end_json,rain_json,rain_png,dialogue_json,ending_json,fire_json,fire_png,liu_letter_jpg,mo_letter1_jpg,mo_lettter2_jpg,zhao_letter_jpg,l1_jpg,l2_jpg,l3_jpg,desk_jpg,filebg_jpg,attrbg_jpg,whw_jpg,gs_jpg,lxr_jpg,qh_jpg,endbg_png,b2_png,b3_png,egret_icon_png,enemy_png,enemyplane_png,plane_png,wall_jpg",
+			"name": "preload"
+		},
+		{
+			"keys": "bing1_png,bing2_png,2poluo_jpg,di1_png,h2_png,si_png,2after_war_1_jpg,2camp_1_jpg,2camp_2_jpg,2dark_camp_jpg,2po_jpg,2shu_jpg,2war_1_jpg,qing2_png,2road_jpg,hong_png,h1_png,nv_png,qing3_png,liu_png,3block_jpg,3jiu_jpg,3officials_1_jpg,3officials_2_jpg,3temple_jpg,light_json,light_png,fengye_png,fengye_json,3schoolroom1_jpg,3bedroom1_jpg,fireball_json,fireball_png,3hospital_jpg,3hospitalin_jpg,3schoolroom2_jpg,farmer_png,guanli2_png,liu2_png",
+			"name": "two"
+		}
+	],
+	"resources": [
+		{
+			"url": "asset/icon/menu.png",
+			"type": "image",
+			"name": "menu_png"
+		},
+		{
+			"url": "asset/icon/save.png",
+			"type": "image",
+			"name": "save_png"
+		},
+		{
+			"url": "asset/icon/start.png",
+			"type": "image",
+			"name": "start_png"
+		},
+		{
+			"url": "asset/icon/shop.png",
+			"type": "image",
+			"name": "shop_png"
+		},
+		{
+			"url": "asset/icon/setting.png",
+			"type": "image",
+			"name": "setting_png"
+		},
+		{
+			"url": "asset/icon/letter.png",
+			"type": "image",
+			"name": "letter_png"
+		},
+		{
+			"url": "asset/icon/attributes.png",
+			"type": "image",
+			"name": "attributes_png"
+		},
+		{
+			"url": "asset/pic/scene/1block.jpg",
+			"type": "image",
+			"name": "1block_jpg"
+		},
+		{
+			"url": "asset/pic/figure/heroine.png",
+			"type": "image",
+			"name": "heroine_png"
+		},
+		{
+			"url": "asset/icon/choose1.png",
+			"type": "image",
+			"name": "choose1_png"
+		},
+		{
+			"url": "asset/icon/name1.png",
+			"type": "image",
+			"name": "name1_png"
+		},
+		{
+			"url": "asset/icon/dialog1.png",
+			"type": "image",
+			"name": "dialog1_png"
+		},
+		{
+			"url": "asset/pic/scene/1house_2.jpg",
+			"type": "image",
+			"name": "1house_2_jpg"
+		},
+		{
+			"url": "asset/pic/scene/1town_1.jpg",
+			"type": "image",
+			"name": "1town_1_jpg"
+		},
+		{
+			"url": "asset/pic/scene/1town_2.jpg",
+			"type": "image",
+			"name": "1town_2_jpg"
+		},
+		{
+			"url": "asset/pic/scene/1town_3.jpg",
+			"type": "image",
+			"name": "1town_3_jpg"
+		},
+		{
+			"url": "asset/pic/scene/1house_1.jpg",
+			"type": "image",
+			"name": "1house_1_jpg"
+		},
+		{
+			"url": "asset/pic/figure/qing_1.png",
+			"type": "image",
+			"name": "qing_1_png"
+		},
+		{
+			"url": "asset/pic/figure/mouncle.png",
+			"type": "image",
+			"name": "mouncle_png"
+		},
+		{
+			"url": "asset/icon/file.jpg",
+			"type": "image",
+			"name": "file_jpg"
+		},
+		{
+			"url": "asset/icon/read.png",
+			"type": "image",
+			"name": "read_png"
+		},
+		{
+			"url": "asset/pic/figure/aqiao.png",
+			"type": "image",
+			"name": "aqiao_png"
+		},
+		{
+			"url": "asset/pic/figure/child.png",
+			"type": "image",
+			"name": "child_png"
+		},
+		{
+			"url": "asset/pic/scene/notice_1.jpg",
+			"type": "image",
+			"name": "notice_1_jpg"
+		},
+		{
+			"url": "asset/pic/figure/luren01.png",
+			"type": "image",
+			"name": "luren01_png"
+		},
+		{
+			"url": "asset/pic/figure/guanli01.png",
+			"type": "image",
+			"name": "guanli01_png"
+		},
+		{
+			"url": "asset/sound/buttonclick.mp3",
+			"type": "sound",
+			"name": "buttonclick_mp3"
+		},
+		{
+			"url": "asset/sound/jiumeng.mp3",
+			"type": "sound",
+			"name": "jiumeng_mp3"
+		},
+		{
+			"url": "asset/pic/main.jpg",
+			"type": "image",
+			"name": "main_jpg"
+		},
+		{
+			"url": "asset/icon/btn_sound_down.png",
+			"type": "image",
+			"name": "btn_sound_down_png"
+		},
+		{
+			"url": "asset/icon/MoneyBG.png",
+			"type": "image",
+			"name": "MoneyBG_png"
+		},
+		{
+			"url": "asset/icon/YesBtn.jpg",
+			"type": "image",
+			"name": "YesBtn_jpg"
+		},
+		{
+			"url": "asset/icon/YesBtn1.jpg",
+			"type": "image",
+			"name": "YesBtn1_jpg"
+		},
+		{
+			"url": "asset/icon/btn_disable.png",
+			"type": "image",
+			"name": "btn_disable_png"
+		},
+		{
+			"url": "asset/icon/btn_music.png",
+			"type": "image",
+			"name": "btn_music_png"
+		},
+		{
+			"url": "asset/icon/btn_music_down.png",
+			"type": "image",
+			"name": "btn_music_down_png"
+		},
+		{
+			"url": "asset/icon/btn_sound.png",
+			"type": "image",
+			"name": "btn_sound_png"
+		},
+		{
+			"url": "asset/particle/newParticle.json",
+			"type": "json",
+			"name": "newParticle_json"
+		},
+		{
+			"url": "asset/particle/newParticle.png",
+			"type": "image",
+			"name": "newParticle_png"
+		},
+		{
+			"url": "asset/cartoon/1.jpg",
+			"type": "image",
+			"name": "1_jpg"
+		},
+		{
+			"url": "asset/cartoon/2.jpg",
+			"type": "image",
+			"name": "2_jpg"
+		},
+		{
+			"url": "asset/cartoon/3.jpg",
+			"type": "image",
+			"name": "3_jpg"
+		},
+		{
+			"url": "asset/cartoon/4.jpg",
+			"type": "image",
+			"name": "4_jpg"
+		},
+		{
+			"url": "asset/cartoon/5.jpg",
+			"type": "image",
+			"name": "5_jpg"
+		},
+		{
+			"url": "asset/cartoon/6.jpg",
+			"type": "image",
+			"name": "6_jpg"
+		},
+		{
+			"url": "asset/cartoon/7.jpg",
+			"type": "image",
+			"name": "7_jpg"
+		},
+		{
+			"url": "asset/cartoon/8.jpg",
+			"type": "image",
+			"name": "8_jpg"
+		},
+		{
+			"url": "asset/cartoon/9.jpg",
+			"type": "image",
+			"name": "9_jpg"
+		},
+		{
+			"url": "asset/cartoon/10.jpg",
+			"type": "image",
+			"name": "10_jpg"
+		},
+		{
+			"url": "asset/cartoon/11.jpg",
+			"type": "image",
+			"name": "11_jpg"
+		},
+		{
+			"url": "asset/cartoon/12.jpg",
+			"type": "image",
+			"name": "12_jpg"
+		},
+		{
+			"url": "asset/cartoon/13.jpg",
+			"type": "image",
+			"name": "13_jpg"
+		},
+		{
+			"url": "asset/cartoon/14.jpg",
+			"type": "image",
+			"name": "14_jpg"
+		},
+		{
+			"url": "asset/icon/properties.json",
+			"type": "sheet",
+			"name": "properties_json",
+			"subkeys": "property1,property2,property3,property4,property5,property6"
+		},
+		{
+			"url": "asset/pic/figure/bing1.png",
+			"type": "image",
+			"name": "bing1_png"
+		},
+		{
+			"url": "asset/pic/figure/bing2.png",
+			"type": "image",
+			"name": "bing2_png"
+		},
+		{
+			"url": "asset/pic/scene/2poluo.jpg",
+			"type": "image",
+			"name": "2poluo_jpg"
+		},
+		{
+			"url": "asset/pic/scene/2po.jpg",
+			"type": "image",
+			"name": "2po_jpg"
+		},
+		{
+			"url": "asset/pic/scene/2dark_camp.jpg",
+			"type": "image",
+			"name": "2dark_camp_jpg"
+		},
+		{
+			"url": "asset/pic/scene/2camp_2.jpg",
+			"type": "image",
+			"name": "2camp_2_jpg"
+		},
+		{
+			"url": "asset/pic/scene/2camp_1.jpg",
+			"type": "image",
+			"name": "2camp_1_jpg"
+		},
+		{
+			"url": "asset/pic/scene/2after_war_1.jpg",
+			"type": "image",
+			"name": "2after_war_1_jpg"
+		},
+		{
+			"url": "asset/pic/scene/2war_1.jpg",
+			"type": "image",
+			"name": "2war_1_jpg"
+		},
+		{
+			"url": "asset/pic/scene/2shu.jpg",
+			"type": "image",
+			"name": "2shu_jpg"
+		},
+		{
+			"url": "asset/pic/figure/di1.png",
+			"type": "image",
+			"name": "di1_png"
+		},
+		{
+			"url": "asset/pic/figure/h2.png",
+			"type": "image",
+			"name": "h2_png"
+		},
+		{
+			"url": "asset/pic/figure/si.png",
+			"type": "image",
+			"name": "si_png"
+		},
+		{
+			"url": "asset/pic/figure/qing2.png",
+			"type": "image",
+			"name": "qing2_png"
+		},
+		{
+			"url": "asset/pic/scene/2road.jpg",
+			"type": "image",
+			"name": "2road_jpg"
+		},
+		{
+			"url": "asset/pic/figure/hong.png",
+			"type": "image",
+			"name": "hong_png"
+		},
+		{
+			"url": "asset/particle/end.png",
+			"type": "image",
+			"name": "end_png"
+		},
+		{
+			"url": "asset/particle/end.json",
+			"type": "json",
+			"name": "end_json"
+		},
+		{
+			"url": "asset/particle/rain.json",
+			"type": "json",
+			"name": "rain_json"
+		},
+		{
+			"url": "asset/particle/rain.png",
+			"type": "image",
+			"name": "rain_png"
+		},
+		{
+			"url": "asset/dialogue.json",
+			"type": "json",
+			"name": "dialogue_json"
+		},
+		{
+			"url": "asset/pic/figure/h1.png",
+			"type": "image",
+			"name": "h1_png"
+		},
+		{
+			"url": "asset/pic/figure/nv.png",
+			"type": "image",
+			"name": "nv_png"
+		},
+		{
+			"url": "asset/pic/figure/qing3.png",
+			"type": "image",
+			"name": "qing3_png"
+		},
+		{
+			"url": "asset/pic/figure/liu.png",
+			"type": "image",
+			"name": "liu_png"
+		},
+		{
+			"url": "asset/pic/scene/3block.jpg",
+			"type": "image",
+			"name": "3block_jpg"
+		},
+		{
+			"url": "asset/pic/scene/3jiu.jpg",
+			"type": "image",
+			"name": "3jiu_jpg"
+		},
+		{
+			"url": "asset/pic/scene/3officials_1.jpg",
+			"type": "image",
+			"name": "3officials_1_jpg"
+		},
+		{
+			"url": "asset/pic/scene/3officials_2.jpg",
+			"type": "image",
+			"name": "3officials_2_jpg"
+		},
+		{
+			"url": "asset/pic/scene/3temple.jpg",
+			"type": "image",
+			"name": "3temple_jpg"
+		},
+		{
+			"url": "asset/particle/light.json",
+			"type": "json",
+			"name": "light_json"
+		},
+		{
+			"url": "asset/particle/light.png",
+			"type": "image",
+			"name": "light_png"
+		},
+		{
+			"url": "asset/particle/fengye.json",
+			"type": "json",
+			"name": "fengye_json"
+		},
+		{
+			"url": "asset/particle/fengye.png",
+			"type": "image",
+			"name": "fengye_png"
+		},
+		{
+			"url": "asset/pic/scene/3bedroom1.jpg",
+			"type": "image",
+			"name": "3bedroom1_jpg"
+		},
+		{
+			"url": "asset/pic/scene/3schoolroom1.jpg",
+			"type": "image",
+			"name": "3schoolroom1_jpg"
+		},
+		{
+			"url": "asset/ending.json",
+			"type": "json",
+			"name": "ending_json"
+		},
+		{
+			"url": "asset/particle/fireball.png",
+			"type": "image",
+			"name": "fireball_png"
+		},
+		{
+			"url": "asset/particle/fireball.json",
+			"type": "json",
+			"name": "fireball_json"
+		},
+		{
+			"url": "asset/particle/fire.json",
+			"type": "json",
+			"name": "fire_json"
+		},
+		{
+			"url": "asset/particle/fire.png",
+			"type": "image",
+			"name": "fire_png"
+		},
+		{
+			"url": "asset/pic/scene/3hospital.jpg",
+			"type": "image",
+			"name": "3hospital_jpg"
+		},
+		{
+			"url": "asset/pic/scene/3hospitalin.jpg",
+			"type": "image",
+			"name": "3hospitalin_jpg"
+		},
+		{
+			"url": "asset/pic/scene/3schoolroom2.jpg",
+			"type": "image",
+			"name": "3schoolroom2_jpg"
+		},
+		{
+			"url": "asset/pic/figure/farmer.png",
+			"type": "image",
+			"name": "farmer_png"
+		},
+		{
+			"url": "asset/pic/figure/guanli2.png",
+			"type": "image",
+			"name": "guanli2_png"
+		},
+		{
+			"url": "asset/pic/figure/liu2.png",
+			"type": "image",
+			"name": "liu2_png"
+		},
+		{
+			"url": "asset/pic/letter/liu_letter.jpg",
+			"type": "image",
+			"name": "liu_letter_jpg"
+		},
+		{
+			"url": "asset/pic/letter/mo_letter1.jpg",
+			"type": "image",
+			"name": "mo_letter1_jpg"
+		},
+		{
+			"url": "asset/pic/letter/mo_lettter2.jpg",
+			"type": "image",
+			"name": "mo_lettter2_jpg"
+		},
+		{
+			"url": "asset/pic/letter/zhao_letter.jpg",
+			"type": "image",
+			"name": "zhao_letter_jpg"
+		},
+		{
+			"url": "asset/pic/letter/l1.jpg",
+			"type": "image",
+			"name": "l1_jpg"
+		},
+		{
+			"url": "asset/pic/letter/l2.jpg",
+			"type": "image",
+			"name": "l2_jpg"
+		},
+		{
+			"url": "asset/pic/letter/l3.jpg",
+			"type": "image",
+			"name": "l3_jpg"
+		},
+		{
+			"url": "asset/pic/letter/desk.jpg",
+			"type": "image",
+			"name": "desk_jpg"
+		},
+		{
+			"name": "filebg_jpg",
+			"type": "image",
+			"url": "asset/icon/filebg.jpg"
+		},
+		{
+			"name": "attrbg_jpg",
+			"type": "image",
+			"url": "asset/icon/attrbg.jpg"
+		},
+		{
+			"name": "whw_jpg",
+			"type": "image",
+			"url": "asset/pic/scene/whw.jpg"
+		},
+		{
+			"name": "gs_jpg",
+			"type": "image",
+			"url": "asset/pic/scene/gs.jpg"
+		},
+		{
+			"name": "lxr_jpg",
+			"type": "image",
+			"url": "asset/pic/scene/lxr.jpg"
+		},
+		{
+			"name": "qh_jpg",
+			"type": "image",
+			"url": "asset/pic/scene/qh.jpg"
+		},
+		{
+			"name": "endbg_png",
+			"type": "image",
+			"url": "asset/icon/endbg.png"
+		},
+		{
+			"name": "b2_png",
+			"type": "image",
+			"url": "asset/attack/b2.png"
+		},
+		{
+			"name": "b3_png",
+			"type": "image",
+			"url": "asset/attack/b3.png"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "asset/attack/egret_icon.png"
+		},
+		{
+			"name": "enemy_png",
+			"type": "image",
+			"url": "asset/attack/enemy.png"
+		},
+		{
+			"name": "enemyplane_png",
+			"type": "image",
+			"url": "asset/attack/enemyplane.png"
+		},
+		{
+			"name": "plane_png",
+			"type": "image",
+			"url": "asset/attack/plane.png"
+		},
+		{
+			"name": "wall_jpg",
+			"type": "image",
+			"url": "asset/attack/wall.jpg"
+		}
+	]
+}

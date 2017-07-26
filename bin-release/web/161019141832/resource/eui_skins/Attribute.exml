@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Attribute" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="157d5b42393"/>
+	<e:Rect width="1283" height="430" x="0" y="147" scaleX="1" scaleY="1"/>
+	<e:Label text="好感度与属性值" x="507" y="193" height="48" size="38" scaleX="1" scaleY="1" textColor="0x600809"/>
+	<e:Label id="qingLabel" text="标签" x="148" y="307" height="194" size="40" width="74" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" textColor="0x600809"/>
+	<e:Label id="siLabel" text="标签" x="317" y="307" height="194" size="40" width="74" textAlign="center" verticalAlign="middle" textColor="0x600809"/>
+	<e:Label id="liuLabel" text="标签" x="507" y="307" height="194" size="40" width="74" textAlign="center" verticalAlign="middle" textColor="0x600809"/>
+	<e:Label id="forceLabel" text="标签" x="781" y="307" height="194" size="40" width="74" textAlign="center" verticalAlign="middle" textColor="0x600809"/>
+	<e:Label id="witLabel" text="标签" x="967" y="307" height="194" size="40" width="74" textAlign="center" verticalAlign="middle" textColor="0x600809"/>
+	<e:Label id="popLabel" text="标签" x="1152" y="307" height="194" size="40" width="74" textAlign="center" verticalAlign="middle" textColor="0x600809"/>
+	<e:Image source="properties_json.property1" x="426" y="220"/>
+	<e:Image source="properties_json.property2" x="243" y="222"/>
+	<e:Image source="properties_json.property3" x="74" y="224"/>
+	<e:Image source="properties_json.property4" x="898" y="231"/>
+	<e:Image source="properties_json.property6" x="712" y="228"/>
+	<e:Image source="properties_json.property5" x="1082" y="225"/>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AsideSkin" width="600" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15765981be4" ></w:Config>
+	<e:Image source="choose1_png" x="0" y="0" width="600" height="150" scale9Grid="26,14,216,39"/>
+	<e:Label id="asidetext" text="旁白" x="19" y="17" width="564" height="119" verticalAlign="middle" textAlign="center"/>
+</e:Skin>

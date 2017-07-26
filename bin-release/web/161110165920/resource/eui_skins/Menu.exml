@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MenuSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="157d57a7581" ></w:Config>
+	<e:Rect width="502" height="255" x="389" y="197" fillAlpha="1" strokeColor="0xf7ebeb"/>
+	<e:Image id="attributes" source="attributes_png" x="792" y="281" width="80" height="80"/>
+	<e:Image id="read" source="read_png" x="402" y="281" width="80" height="80"/>
+	<e:Image id="save" source="save_png" x="531" y="281" width="80" height="80"/>
+	<e:Image id="letter" source="letter_png" x="663" y="281" width="80" height="80"/>
+	<e:Label text="读档" x="414" y="384" size="28" height="32" width="59"/>
+	<e:Label text="存档" x="545" y="385" size="28" width="56" height="50"/>
+	<e:Label text="来信" x="677" y="385" size="28" scaleX="1" scaleY="1"/>
+	<e:Label text="属性" x="806" y="387" size="28" height="58"/>
+	<e:Label text="菜单" x="522" y="209" width="236" height="72" textAlign="center" verticalAlign="middle"/>
+</e:Skin>
